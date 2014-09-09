@@ -19,7 +19,7 @@ console.log("Each person will get " + person + "slices of pizza.")
 //Equation: remainder of whole pizza = .333 * people (6) = x
 var leftOver= (.333 * people)
 
-console.log("Sparky got " + leftOver + " pieces of pizza.")
+console.log("Sparky received " + leftOver + " slice of pizza.")
 
 //Part 3
 //Budgeting groceries.
@@ -27,4 +27,6 @@ console.log("Sparky got " + leftOver + " pieces of pizza.")
 var total=750.00;
 var average=[total / 5];
 
-console.log("I have spent " + total + " on groceries over 5 weeks. " + " That is an average of " + average + " per week.")
+console.log("I have spent " + total + " on groceries over 5 weeks. " + "That is an average of " + average + " per week.")
+
+//Part 4
