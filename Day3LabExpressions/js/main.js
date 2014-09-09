@@ -21,11 +21,10 @@ var leftOver= (.333 * people)
 
 console.log("Sparky got " + leftOver + " pieces of pizza.")
 
-Part 3
+//Part 3
 //Budgeting groceries.
 
 var total=750.00;
 var average=[total / 5];
 
-
-//console.log()
+console.log("I have spent " + total + " on groceries over 5 weeks. " + " That is an average of " + average + " per week.")
