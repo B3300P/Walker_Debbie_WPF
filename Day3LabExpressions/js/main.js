@@ -39,9 +39,10 @@ var discount=.05;
 var description="pair of shoes";
 var tax=.03;
 
-var withTax= price + tax;
-var withoutTax= price;
+var withTax=price + tax;
+var withoutTax=price;
 
-var discountTotal=price * (1- discount);
+var discountWithoutTax=price * (1- discount);
+var discountWithTax=discountWithoutTax * (1- tax)
 
-console.log("The " + description + " were originally $" + price + ".00, but after a " + discount + " discount was applied, it is now only");
+console.log("The " + description + " was originally $" + price + ".00, but after a " + discount + " discount was applied, it is now only" + " $" + discountWithoutTax + " without tax and $" + discountWithTax);
