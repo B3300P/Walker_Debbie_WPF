@@ -2,24 +2,35 @@
 
 //SELF ASSIGNMENT: Javascript Vocabulary
 
-//Expressions: "Building blocks for Java program...using values, variables, operators and method calls." Reference/source: http://java.about.com/od/e/g/expression.htm
-//Expressions such as slicesOfPizza, or minutesInHour give evaluation (http://dictionary.reference.com/browse/evaluate?s=t) to a specific value
-//
 // Javascript: Frontend programming language (or set of instructions); it's primary function is to control elements in a browser.
-        // Frontend software = client side which lives on a computer as opposed to a server (it is referred to as a loosely type language because its variables can contain abstract data).
+        // Frontend: Means client side which lives on a computer as opposed to a server (it is referred to as a loosely type language because its variables can contain abstract data).
+
+//Expressions: "Building blocks for Java program...using values, variables, operators and method calls." Reference/source: http://java.about.com/od/e/g/expression.htm
+        //Expressions such as slicesOfPizza, or minutesInHour give evaluation (http://dictionary.reference.com/browse/evaluate?s=t) to a specific value.
+
+            //Value:
+            //Variables: Are a container of data containing a  - for example: var score=0
+            //Operators: Are symbols that assign values to variables. Reverence/source: http://www.w3schools.com/js/js_operators.asp
+                        //Assigned operators: The most common is the = symbol "is used to assign values to JavaScript variables." It is preceded by an operand/operation on its left and a value on its right for example: slices= 8)
+            //Method calls:
+
+// Forms:
+// Form Objects:
+// Form Element:
+// Continuous Element:
+
+// Forms Collection:
+// Object Collection:
+
+// Document Object:
 
 // Declarations:
-// Variables: Are a container of data containing a  - for example: var score=0
-
-// Operators: Are symbols that assign values to variables.
-     //Assigned operators: The most common is the = symbol "is used to assign values to JavaScript variables." Reverence/source: http://www.w3schools.com/js/js_operators.asp
-        //(It is preceded by an operand/operation on its left and a value on its right for example: slices= 8)
 
 
 
+// Operators:
 
-//Value:
-//Method:
+
 
     //An array of primary browsers is ["Google Chrome + Google Chrome Canary", "Firefox + Firebug", + "Safari + Safari Webkit"].
     //Examples of the 10 data types:
