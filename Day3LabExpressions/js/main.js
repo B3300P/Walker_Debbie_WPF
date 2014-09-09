@@ -34,4 +34,12 @@ console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. "
 
 //Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
 
-//
+var price=10
+var discount=.05
+var item=shoe
+var tax=.03
+
+var itemTotal= price + tax
+var item= price
+
+console.log("The " + item + " was originally $" + price + ".00, but after a" + discount + ".00 , it is now " + price * 1 - discount
