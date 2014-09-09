@@ -11,11 +11,21 @@ var pizzas=4;
 var person=(slices * pizzas /people)
 
 //Browser document post.
-console.log("Each person will get " + person)
+console.log("Each person will get " + person + "slices of pizza.")
 
 
 //Part 2
 //How much left over pizza will there be if all the pizza slice where whole?
 //Equation: remainder of whole pizza = .333 * people (6) = x
-console.log(.333 * people)
+var leftOver= (.333 * people)
 
+console.log("Sparky got " + leftOver + " pieces of pizza.")
+
+Part 3
+//Budgeting groceries.
+
+var total=750.00;
+var average=[total / 5];
+
+
+//console.log()
