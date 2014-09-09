@@ -11,7 +11,7 @@ var pizzas=4;
 var person=(slices * pizzas /people)
 
 //Browser document post.
-console.log("Each person will get " + person + "slices of pizza.")
+console.log("Each person will get " + person + " slices of pizza.")
 
 
 //Part 2
@@ -27,9 +27,10 @@ console.log("Sparky received " + leftOver + " slice of pizza.")
 var total=750.00;
 var average=[total / 5];
 
-console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. " + "That is an average of $" + average + " per week.")
+console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. " + "That is an average of $" + average  + ".00 per week.")
 
 //Part 4
+
 
 //Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
 
