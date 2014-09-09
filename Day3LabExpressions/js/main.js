@@ -17,7 +17,7 @@ console.log("Each person will get " + person + "slices of pizza.")
 //Part 2
 //How much left over pizza will there be if all the pizza slice where whole?
 //Equation: remainder of whole pizza = .333 * people (6) = x
-var leftOver= (.333 * people)
+var leftOver= (slices * pizzas %people)
 
 console.log("Sparky received " + leftOver + " slice of pizza.")
 
@@ -27,6 +27,10 @@ console.log("Sparky received " + leftOver + " slice of pizza.")
 var total=750.00;
 var average=[total / 5];
 
-console.log("I have spent " + total + " on groceries over 5 weeks. " + "That is an average of " + average + " per week.")
+console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. " + "That is an average of $" + average + " per week.")
 
 //Part 4
+
+//Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
+
+//
