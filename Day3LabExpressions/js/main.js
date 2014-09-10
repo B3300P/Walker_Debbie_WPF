@@ -72,19 +72,21 @@ var average=[total / 5];
 console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. " + "That is an average of $" + average  + ".00 per week.");
 
 //Part 4
-
-
-//Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
-
+// Problem: Average the annual grocery budget using the last 5 weeks.
+// Declaration:
 var price=10;
 var discount=.05;
 var description="pair of shoes";
 var tax=.03;
 
+//Result variable, equation:
 var withTax=price + tax;
 var withoutTax=price;
 
+//Result variable, equation:
 var discountWithoutTax=price * (1- discount);
-var discountWithTax=discountWithoutTax * (1+ tax)
+var discountWithTax=discountWithoutTax * (1+ tax);
 
+//Result format, this is what will show up in the browser document post.
+//Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
 console.log("The " + description + " was originally $" + price + ".00, but after a " + discount + " discount was applied, it is now only" + " $" + discountWithoutTax + " without tax and $" + discountWithTax + " after tax.");
