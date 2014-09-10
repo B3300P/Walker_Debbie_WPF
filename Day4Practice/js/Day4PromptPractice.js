@@ -23,6 +23,11 @@ alert(area);
 
 //
 var areaCode = prompt("What is your area code?");
-var  phoneNumer = prompt("What is your phone number without area code?");
+var  phoneNumber = prompt("What is your phone number without area code?");
 
 String(areaCode)+ String(phoneNumber);
+
+//Pars Integer (sets a whole number back, not a fraction)
+//parseInt
+
+//var test = parseInt("48 inches");

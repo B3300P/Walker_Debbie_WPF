@@ -12,8 +12,9 @@
 
 
 // Contacts calculation
-// I need to figure out how many boxes of contacts that I will need to purchase to last me until my next doctor appointment.
+// How many boxes of contacts will need to be purchased in order to last until the next doctor appointment?
 // Assume contacts are monthly disposable and the doctor appointments are scheduled exactly one year apart.
+
 //Given:
 // • a box can hold up to 10 packages
 
@@ -21,6 +22,10 @@
 // • Total package
 // • Total box
 // • Total per eye
+
+var package= 20;
+var box=10;
+var leftEye=
 
 
 
