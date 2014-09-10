@@ -22,3 +22,4 @@ consle.log(avangerNames[0];
 consle.log(avengerNames.length);
 
 
+var name = prompt()
