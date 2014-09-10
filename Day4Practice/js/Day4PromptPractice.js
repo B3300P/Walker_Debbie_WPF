@@ -10,13 +10,25 @@ alert(name);
 //calculate the are of a rectangle
 
 var width = prompt("What is the width of your room?");
+//variable set of for the width of a room. prompt user for the with
+
+//     to comment on a whole section use /*your+name = your name
+
 var height = prompt("What is the height of your room?");
 
 var area = width*height;
 
+var addRoom = width-height;
 
 //CASTING
 //if I am adding I have to add it as a number (can't subtract, divide, multiply stings)
+
+var addRoom = Number(with)+Number(height);
+
+var test = parseInt("40.123 inches");
+console.log(test);
+
+
 
 console.log(area);
 alert(area);
@@ -31,3 +43,6 @@ String(areaCode)+ String(phoneNumber);
 //parseInt
 
 //var test = parseInt("48 inches");
+
+//CONDITIONALS - PREVIEW for Friday (don't use until after Friday)
+
