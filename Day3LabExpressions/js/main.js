@@ -17,7 +17,10 @@
                     //null	                a special keyword denoting a null value; null is also a primitive value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant (USE CAMO CASE,
                     //undefined	            a "In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input. Variable declared without a value will have the value undefined, for example: var carName;"
 
-            //2. Variables: Are a container of data containing a  - for example: var score=0; or you can have one statement with many variables for example: var lastName = "Doe", age = 30, job = "carpenter";
+// Declaring: Creating a variable in JavaScript is called "declaring" a variable
+
+            // 2. Variables: Are a container of data containing a  - for example: var score=0; or you can have one statement with many variables for example: var lastName = "Doe", age = 30, job = "carpenter";
+
                     // Variable names must begin with a letter
                     // Variable names can also begin with $ and _ (but do not use it)
                     // Variable names are case sensitive (y and Y are different variables)
@@ -28,61 +31,44 @@
 
             //4. Method calls:
 
-// Declaring: Creating a variable in JavaScript is called "declaring" a variable
-
-
-//variables, constants, and literals
-
-
-// Forms:
-// Form Objects:
-// Form Element:
-// Continuous Element:
-
-// Forms Collection:
-// Object Collection:
-
-// Document Object:
-
-
-// Operators:
-
-
-
     //An array of primary browsers is ["Google Chrome + Google Chrome Canary", "Firefox + Firebug", + "Safari + Safari Webkit"].
     //Examples of the 10 data types:
         //1. var score= 5 - this is an example of a number data type, which is a number shown by itself
         //2. var score= "Bob" - this is an example of a string, which is set off by quotation marks
         //3. var score= true or false - this is an example of of a boolean
 
+//________________________________________________________________________________________________________________
 
 
-//Part 1 | Collection of data:
-// How many pizza slices will everyone at a pizza party get, if there are...
+// Creating Expressions
+// Part 1
+// Problem: How many slices of pizza will each person receive?
+// Declaration:
 var slices=8;
 var people=6;
 var pizzas=4;
 
-//The equation for the
+//Result variable, this is the equation.
 var person=(slices * pizzas /people);
 
-//Browser document post.
+//Result format, this is what will show up in the browser document post.
 console.log("Each person will get " + person + " slices of pizza.");
 
-
 //Part 2
-//How much left over pizza will there be if all the pizza slice where whole?
-//Equation: remainder of whole pizza = .333 * people (6) = x
+//Problem: How much left over pizza will there be, to feed Sparky the dog, if all the pizza slice where whole?
+//Result variable, equation: remainder of whole pizza = .333 * people (6) = x
 var leftOver= (slices * pizzas %people);
 
+//Result format, this is what will show up in the browser document post.
 console.log("Sparky received " + leftOver + " slice of pizza.");
 
 //Part 3
-//Budgeting groceries.
-
+// Problem: Average the annual grocery budget using the last 5 weeks.
+// Declaration:
 var total=550.00;
 var average=[total / 5];
 
+//Result format, this is what will show up in the browser document post.
 console.log("I have spent $" + total.toFixed(2) + " on groceries over 5 weeks. " + "That is an average of $" + average  + ".00 per week.");
 
 //Part 4
