@@ -23,11 +23,10 @@ var addRoom = width-height;
 //CASTING
 //if I am adding I have to add it as a number (can't subtract, divide, multiply stings)
 
-var addRoom = Number(with)+Number(height);
+var addRoom = Number(width)+Number(height);
 
 var test = parseInt("40.123 inches");
 console.log(test);
-
 
 
 console.log(area);
