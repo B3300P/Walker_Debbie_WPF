@@ -8,15 +8,22 @@
 //27 $10
 
 // Variable:
-var oneDollar = 1
-var fiveDollar= oneDollar * 5
-var tenDollars= oneDollar * 10
+var oneDollar = 72;
+var fiveDollar = 12;
+var tenDollars = 27;
+
+
+var totalDollar = [oneDollar * x];
+
+console.log()
 
 // Declaration:
 
 
 // Result Variable:
 
+
+/*
 //Result Format:
 console.log("")
 
@@ -27,4 +34,3 @@ var name = prompt("What is the total?");
 console.log(name);
 alert(name);
 
-how many
