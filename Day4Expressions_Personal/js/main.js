@@ -5,20 +5,26 @@
 // Assume contacts are monthly disposable and the doctor appointments are scheduled exactly one year apart.
 
 //Given:
-// • a box can hold up to 10 packages
+// • One box can hold up to 10 packages
 
 // Variable:
-// • Maximum packages per pack
-// • Maximum containers per package
+// • Maximum containers per pack
+// • Maximum packs per box
 // • Total box
-// • Total left eye
-// • Total right eye
+// • Left eye container
+// • Right eye container
 
-// Declaration
-
-var maxPackP
+// Declaration:
+// package = x
 var leftEyePackage=1;
 var rightEyePackage=1;
+// container = 1 left and 1 right contact package
+var container= ("leftEyePackage" + "rightEyePackage");
+// box minimum = 1, box maximum = 10
+
+
+var box= 10 * container
+
 
 // Result Variable: x contact packages fit into x boxes
 var maxPackagesPerBox= ("leftEyePackage" + "rightEyePackage");
