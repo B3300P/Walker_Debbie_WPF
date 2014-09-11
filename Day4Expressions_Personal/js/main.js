@@ -1,32 +1,34 @@
 //Debbie Walker, September 10, 2014, Web Programming Fundamentals - Lecture 00, Day 4 Expressions_Personal
 
-//Assignment: You will create three separate projects, each a set of files and folders.
-// Each set will be a calculator that collects information from the user with prompts,
-// calculates some sort of useful result with that information and print a result to the console.
-
-
-
-//Personal: The first set should be something personal to you. Some examples
-//Code that calculates how many diapers you will need over the course of a year.
-  //  How much paint you would need for a room in your home.
-
-
-// Contacts calculation
+// Calculating Packages of Contacts
 // How many boxes of contacts will need to be purchased in order to last until the next doctor appointment?
 // Assume contacts are monthly disposable and the doctor appointments are scheduled exactly one year apart.
 
 //Given:
 // • a box can hold up to 10 packages
 
-// Result Variable:
-// • Total package
+// Variable:
+// • Maximum packages per pack
+// • Maximum containers per package
 // • Total box
-// • Total per eye
+// • Total left eye
+// • Total right eye
 
-var package= 20;
-var box=10;
-var leftEye=
+// Declaration
+
+var maxPackP
+var leftEyePackage=1;
+var rightEyePackage=1;
+
+// Result Variable: x contact packages fit into x boxes
+var maxPackagesPerBox= ("leftEyePackage" + "rightEyePackage");
+var box= ("")
+
+//Result Format:
+console.log("")
 
 
 
 
+
+b
