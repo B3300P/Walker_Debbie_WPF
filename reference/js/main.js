@@ -97,14 +97,13 @@ console.log("The total labor of the team will be $" + labor + ".00 an hour to de
 var colorChoices = ["pink", "yellow", "blue", "purple"];
 var color = prompt("What's your favorite color?", colorChoices);
 
-var scentChoice1 = ("yes");
-var scentChoice2 = ("no");
-if (scentChoice1) {
+var bubbles = ("yes");
+if (bubbles) {
     greeting = "Bubbles make an ordinary day extraordinary!";
 } else {
     greeting = "Simple is very zen.";
 }
-var scentChoice = ["bubble gum", "sunshine", "ocean breeze", "lavender"]
-var scent = prompt("What scent would you like?")
+var scentChoice = ["bubble gum", "sunshine", "ocean breeze", "lavender"];
+var scent = prompt("What scent would you like?", scentChoice);
 
 
