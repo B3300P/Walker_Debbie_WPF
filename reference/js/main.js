@@ -1,4 +1,6 @@
+/*
 var bowl = "shell";  //var is variable, bowl is the name of the variable, = assignment
+
 // operator and shell is the value
 var helloWord = "Hello World!"; // hellowWorld is a variable name, and "Hello World!"
 // is a string
@@ -26,7 +28,7 @@ console.log("average: " + average);
 forward slash
 *
 *
-* */
+
 
 //$3000,000.average (NEED TO LEARN THIS LATER - learned it accidently).
 
@@ -77,6 +79,7 @@ console.log("The total labor of the team will be $" + labor + ".00 an hour to de
     " a website. With a budget of $" + budget + ".00 the team will be able to work " +
     totalHours + " hours.")
 
+*/
 
 //Problem: What color of bath would you like?
 
@@ -97,13 +100,20 @@ console.log("The total labor of the team will be $" + labor + ".00 an hour to de
 var colorChoices = ["pink", "yellow", "blue", "purple"];
 var color = prompt("What's your favorite color?", colorChoices);
 
-var bubbles = ("yes");
-if (bubbles) {
-    greeting = "Bubbles make an ordinary day extraordinary!";
+var bubbles = ("Would you like bubbles in your bath?");
+if (bubbles == "yes" || bubbles == "y") {
+    greeting = "Great choice, bubbles make an ordinary day extraordinary!";
 } else {
-    greeting = "Simple is very zen.";
+    greeting = "Sometimes simple can be so very zen.";
 }
 var scentChoice = ["bubble gum", "sunshine", "ocean breeze", "lavender"];
 var scent = prompt("What scent would you like?", scentChoice);
 
 
+var scent = (Math.floor ["bubble gum", "sunshine", "ocean breeze", "lavender"]);
+<%
+
+Randomize
+response.write(Rnd)
+
+%>
