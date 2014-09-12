@@ -29,5 +29,13 @@ var color = ["white", " black", " grey", " beige"];//This is an array, an array 
 var colorChoice = prompt("Pick a background color. " + color);//This is an example of prompt.
 // A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
 // something plus a variable.
-console.log("Thank you, your logo will be placed in the " + colorChoice + ", of the header.");//This is a console.log which prints
+console.log("Great, your background color will be " + colorChoice + ".");//This is a console.log which prints
+//to the browser.
+
+var positions = ["top left", " center", " top right"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var headerChoice = prompt("Choose where you would like your logo to be placed in the header. " + positions);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+console.log("Thank you, your logo will be placed in the " + headerChoice + "of the header.");//This is a console.log which prints
 //to the browser.
