@@ -81,7 +81,7 @@ console.log("The total labor of the team will be $" + labor + ".00 an hour to de
 
 */
 
-//Problem: What color of bath would you like?
+//Problem: How would you like your bath?
 
 //Question:
 // 1. What's your favorite color?,
