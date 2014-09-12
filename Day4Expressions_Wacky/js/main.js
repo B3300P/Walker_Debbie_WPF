@@ -34,5 +34,13 @@ var wigChoices = ["punk", " bald", " short curly", " long straight"];//This is a
 var wig = prompt("Choose a wig: " + wigChoices);//This is an example of prompt.
 // A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
 // something plus a variable.
-console.log("It's getting hairy up in here, looks like your " + wig + " hair choice goes well with your nose.");//This is a console.log which prints
+console.log("It's getting hairy up in here, looks like your " + wig + " hair choice goes well with your nose choice.");//This is a console.log which prints
+//to the browser.
+
+var scentChoices = ["trash", " skunk", " perfume", " chocolate"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var scent = prompt("Choose a wig: " + wigChoices);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+console.log("It's getting hairy up in here, looks like your " + wig + " hair choice goes well with your nose choice.");//This is a console.log which prints
 //to the browser.
