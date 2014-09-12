@@ -23,3 +23,16 @@ var color = prompt("Choose your color. " + colorChoices);//This is an example of
 // something plus a variable.
 console.log("You chose " + color + ", what a great color choice.");//This is a console.log which prints
 //to the browser.
+
+var bubbles = prompt("Would you like bubbles in your bath?");//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+if (bubbles == "yes" || bubbles == "y") {//This is an example of a condition. It starts out with "if"
+    //(the condition) {
+    //block of code to be executed if the condition is true
+    //} else {
+    //block of code to be executed if the condition is false
+    //}
+    greeting = ", bubbles make an ordinary day extraordinary!";
+} else {
+    greeting = ", sometimes simple can be so very zen.";
