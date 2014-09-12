@@ -36,3 +36,6 @@ if (bubbles == "yes" || bubbles == "y") {//This is an example of a condition. It
     greeting = ", bubbles make an ordinary day extraordinary!";
 } else {
     greeting = ", sometimes simple can be so very zen.";
+}
+console.log("Great choice" + greeting);//This is a console.log which prints the
+//to the browser.
