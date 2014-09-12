@@ -43,3 +43,4 @@ console.log("Great choice" + greeting);//This is a console.log which prints the
 var scentChoice = [" Bubble Gum", " Sunshine", " Ocean Breeze", " Lavender"];//See var colorChoice notes for
 //this example, the are the same.
 var scent = prompt("What scent do you prefer?" + scentChoice);
+console.log(scent + " is an excellent choice, I hope it brings you luck today.");//This is a console.log which prints to the browser.
