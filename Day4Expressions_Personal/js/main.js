@@ -14,3 +14,10 @@
 // 1. RANDOM Lovely color choice., That's my favorite color too., That fits your mood perfectly.
 // 2. yes; Bubbles make an ordinary day extraordinary no; Simple is very zen.
 // 3. Your fragrance will enhance any room you step into.
+
+// Equations needed:
+var colorChoices = ["pink", " yellow", " blue", " purple"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var color = prompt("Choose your color. " + colorChoices);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
