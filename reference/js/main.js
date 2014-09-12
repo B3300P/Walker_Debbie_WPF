@@ -97,23 +97,33 @@ console.log("The total labor of the team will be $" + labor + ".00 an hour to de
 // 3. Your fragrance will enhance any room you step into.
 
 // Equations needed:
-var colorChoices = ["pink", "yellow", "blue", "purple"];
-var color = prompt("What's your favorite color?", colorChoices);
+var colorChoices = ["pink", " yellow", " blue", " purple"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var color = prompt("Choose your color. " + colorChoices);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+console.log("You chose " + color + ", what a great color choice.");//This is a console.log which prints
+//to the browser.
 
-var bubbles = ("Would you like bubbles in your bath?");
-if (bubbles == "yes" || bubbles == "y") {
-    greeting = "Great choice, bubbles make an ordinary day extraordinary!";
+var bubbles = prompt("Would you like bubbles in your bath?");//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+if (bubbles == "yes" || bubbles == "y") {//This is an example of a condition. It starts out with "if"
+    //(the condition) {
+    //block of code to be executed if the condition is true
+    //} else {
+    //block of code to be executed if the condition is false
+    //}
+    greeting = ", bubbles make an ordinary day extraordinary!";
 } else {
-    greeting = "Sometimes simple can be so very zen.";
+    greeting = ", sometimes simple can be so very zen.";
 }
-var scentChoice = ["bubble gum", "sunshine", "ocean breeze", "lavender"];
-var scent = prompt("What scent would you like?", scentChoice);
+console.log("Great choice" + greeting);//This is a console.log which prints the
+//to the browser.
+
+var scentChoice = [" Bubble Gum", " Sunshine", " Ocean Breeze", " Lavender"];//See var colorChoice notes for
+//this example, the are the same.
+var scent = prompt("What scent do you prefer?" + scentChoice);
+console.log("The " + scent + "is an excellent choice, I hope it brings you luck today.");//This is a console.log which prints to the browser.
 
 
-var scent = (Math.floor ["bubble gum", "sunshine", "ocean breeze", "lavender"]);
-<%
-
-Randomize
-response.write(Rnd)
-
-%>
