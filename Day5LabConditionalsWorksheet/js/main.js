@@ -53,7 +53,7 @@ if(kidheight + shoeLift >= minheight){
 }
 //will the child be tall enough with 2 inch shoes on
 
- */
+
 
 
 //If Else Statement
@@ -74,6 +74,32 @@ if(kidHeight >= minHeight) {
 
 }
 
+ */
 
 
-//
+//Else IF - choosing between 3 or More blocks used
+
+
+var kidHeight = 40;
+//kid height
+var minHeight =48;
+//kid min
+var wParentHeight = 45;
+//kid height with parent
+
+//if tall er than the min height, you can ride
+//if shorter than min height but with parent and meet that height requirement
+// you can ride
+//you are too short you can't ride
+
+if(kidHeight >= minHeight){
+
+    console.log.("You can ride!")
+}else if(kidHeight <= wParentHeight) {
+
+    //with parent and tall enough
+    console.log("You can ride with your parent!");
+}else{
+    console.log("Go home!");
+}
+
