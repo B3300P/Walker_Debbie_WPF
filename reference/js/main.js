@@ -22,18 +22,38 @@ console.log("average: " + average);
 
 
 
-// Problem: What is the total in my piggy bank.
+// Problem: After the move to Florida, I just found a lock-box from our last garage sale.
+//I need to figure out what the total is.
 
 //Given:
-//72 $1
-//12 $5
-//27 $10
+//There are 72 $1s.
+//There are 12 $5s.
+//There are 27 $10s.
 
-// Variable:
+// Declaration:
 var oneDollars = 72;
 var fiveDollars = 12;
 var tenDollars = 27;
+// Expression: x + y + z = w
 var total = oneDollars + fiveDollars + tenDollars;
+// Print expression to browser.
+console.log ("The total in the lock box was $" + total + ".00.");
 
-console.log ("The total in my piggy bank is $" + total + ".00.");
+
+// Problem: The client wants a website in two days and only has a $3,000 budget.
+//How much time will a small team have to work on it?
+
+//Given:
+//A Designer is $75 an hour.
+//A Developer is $100 an hour.
+//A Project manager is $75 an hour.
+//A Writer is $75 an hour.
+
+// Declaration
+var designer = $75
+var developer = $100
+var projectManager = $75
+var writer = $75
+var budget = $3000
+
 
