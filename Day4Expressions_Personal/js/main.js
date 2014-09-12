@@ -21,3 +21,5 @@ var colorChoices = ["pink", " yellow", " blue", " purple"];//This is an array, a
 var color = prompt("Choose your color. " + colorChoices);//This is an example of prompt.
 // A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
 // something plus a variable.
+console.log("You chose " + color + ", what a great color choice.");//This is a console.log which prints
+//to the browser.
