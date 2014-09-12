@@ -105,6 +105,7 @@ var color = prompt("Choose your color. " + colorChoices);//This is an example of
 console.log("You chose " + color + ", what a great color choice.");//This is a console.log which prints
 //to the browser.
 
+/*
 var bubbles = prompt("Would you like bubbles in your bath?");//This is an example of prompt.
 // A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
 // something plus a variable.
@@ -125,5 +126,7 @@ var scentChoice = [" Bubble Gum", " Sunshine", " Ocean Breeze", " Lavender"];//S
 //this example, the are the same.
 var scent = prompt("What scent do you prefer?" + scentChoice);
 console.log(scent + " is an excellent choice, I hope it brings you luck today.");//This is a console.log which prints to the browser.
+/*
 
+ */
 
