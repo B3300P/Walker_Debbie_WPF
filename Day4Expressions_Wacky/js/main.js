@@ -19,3 +19,12 @@
 // 3. Freakazoid Zombie
 // 4. I'll bet you'll steal the show as a __________ this Halloween.
 
+
+// Equations needed:
+var noseChoices = ["clown", " snout", " trunk", " witch"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var nose = prompt("Pick your nose: " + noseChoices);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+console.log("Picking your nose is disgusting, but choosing a " + nose + ", is awesome.");//This is a console.log which prints
+//to the browser.
