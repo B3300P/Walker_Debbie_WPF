@@ -14,8 +14,8 @@
 // 3. trash, skunk, perfume, chocolate
 // 4. RANDOM Porky The Pig, Oscar the Grouch, Flying Purple Eater, Wicked Witch of the West
 //Comments:
-// 1. Picking your nose is disgusting, but a _________ nose will suite you just fine.
-// 2.
-// 3.
-// 4. You've gone batty, I'll bet you'll steal the part as a __________ this Halloween.
+// 1. Picking your nose is disgusting, but choosing a _________ nose is awesome.
+// 2. It's getting hairy up here, looks like your __________ wig suites your nose.
+// 3. Freakazoid Zombie
+// 4. I'll bet you'll steal the show as a __________ this Halloween.
 
