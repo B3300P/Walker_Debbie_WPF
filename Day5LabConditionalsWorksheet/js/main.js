@@ -39,12 +39,13 @@ var kidheight = 45;
 // kid's height
 var minheight = 48;
 // min height to rid the coaster
-var minheight = 2;
+var shoeLift = 2;
 // has on sneakers that are 2 inches tall
 
-if(kidheight >= minheight){
+if(kidheight + shoeLift >= minheight){
     //if the kid is taller than or equal to the min
     //height they can ride the coaster
     //will shoe lift affect the outcome?
     console.log("You can ride the coaster!!")
 }
+//will the child be tall enough with 2 inch shoes on
