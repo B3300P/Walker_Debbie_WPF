@@ -20,7 +20,7 @@ console.log("average: " + average);
 *
 * */
 
-
+//$3000,000.average (NEED TO LEARN THIS LATER - learned it accidently).
 
 // Problem: After the move to Florida, I just found a lock-box from our last garage sale.
 //I need to figure out what the total is.
@@ -40,20 +40,32 @@ var total = oneDollars + fiveDollars + tenDollars;
 console.log ("The total in the lock box was $" + total + ".00.");
 
 
-// Problem: The client wants a website in two days and only has a $3,000 budget.
-//How much time will a small team have to work on it?
+// Problem: The client wants a website built but only has a $3,000 budget.
+//How many hours will the team be able to work on this site without going over budget?
 
 //Given:
 //A Designer is $75 an hour.
 //A Developer is $100 an hour.
 //A Project manager is $75 an hour.
 //A Writer is $75 an hour.
+//A budget = $3000
+
 
 // Declaration
-var designer = $75
-var developer = $100
-var projectManager = $75
-var writer = $75
-var budget = $3000
+var designer = 75
+var developer = 100
+var projectManager = 75
+var writer = 75
+var budget = 3000
+var day2 = 24
+// Expression: average the total cost per hour for two-day website build.
+// labor / budget
+var labor = designer + developer + projectManager + writer;
+var total = labor;
+// Expression: labor / budget
+var totalHours = total / budget
+
+console.log("The total labor of the team will be " + labor + " hours an hour to develop a website. With a budget of $ " + budget + " the team will be able to work " + totalHours + ".")
+
 
 
