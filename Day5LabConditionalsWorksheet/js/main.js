@@ -140,3 +140,13 @@ if(iPadPrice < budget && payCheck > 600){
 
 // OR fi you won the lottery
 
+var wonLottery = true
+//if the ipad price is less than your budget or you won the lottery,
+// you can buy an ipad
+if(iPadPrice < budget || wonLottery===true){
+    //you can buy an iPad!
+    console.log("You can buy an iPad!");
+
+}else{
+    console.log("You cannot buy an iPad!");
+}   
