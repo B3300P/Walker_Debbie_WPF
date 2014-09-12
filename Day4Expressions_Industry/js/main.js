@@ -23,3 +23,11 @@ var fontChoice = prompt("Choose a font. " + font);//This is an example of prompt
 // something plus a variable.
 console.log(fontChoice + ", is a great choice for your website.");//This is a console.log which prints
 //to the browser.
+
+var color = ["white", " black", " grey", " beige"];//This is an array, an array contains
+// variables set off by brackets. // Each variable must be enclosed with quote marks and followed by a comma.
+var colorChoice = prompt("Pick a background color. " + color);//This is an example of prompt.
+// A prompt includes "prompt()" Inside the prompt is a concatenation that includes a string that tells
+// something plus a variable.
+console.log("Thank you, your logo will be placed in the " + colorChoice + ", of the header.");//This is a console.log which prints
+//to the browser.
