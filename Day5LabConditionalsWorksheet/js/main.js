@@ -74,7 +74,7 @@ if(kidHeight >= minHeight) {
 
 }
 
- */
+
 
 
 //Else IF - choosing between 3 or More blocks used
@@ -102,4 +102,41 @@ if(kidHeight >= minHeight){
 }else{
     console.log("Go home!");
 }
+
+ */
+
+// based on budget can you buy an ipad?
+
+var budget = 300;
+var iPadPrice = 499.99;
+var payCheck = 500;
+
+//if the price of the ipad is less than our budget
+
+if(iPadPrice < budget){
+    console.log("You cannot buy an ipad!");
+
+}else{
+
+}
+
+//AND if our paycheck is over 600
+if(payCheck > 600){
+    console.log("You can buy an iPad!");
+
+}else{
+    console.log("You cannot buy an iPad!");
+
+}
+
+//&& AND operator - both must be true to be true
+
+if(iPadPrice < budget && payCheck > 600){
+    console.log("You can buy an iPad!");
+
+}else{
+    console.log("You cannot buy an iPad!");
+}
+
+// OR fi you won the lottery
 
