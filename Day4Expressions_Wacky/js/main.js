@@ -45,3 +45,5 @@ var scent = prompt("What will you smell like? " + scentChoices);//This is an exa
 // something plus a variable.
 console.log("Wow! That " + scent + " smell really completes your costume!");
 //This is a console.log which prints to the browser.
+
+console.log("I'll bet you'll steal the show as a Freakazoid Zombie this Halloween.")
