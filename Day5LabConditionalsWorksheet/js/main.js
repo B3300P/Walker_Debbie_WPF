@@ -58,14 +58,14 @@ var password = prompt("What is your password?");
 var pass = "Vid00";
 //ask if/then statements.
 //if username AND password are incorrect alert user...
-if(name != pass){
+if((username != name) && (password != pass)){
     alert("Sorry, we don't support hackers.");
-    //
-}else if(name - pass){
+    console.log("Please go away.")
+    //if username OR password are in incorrect alert user...
+}else if((password != pass) || (username != name)){
     alert("Please retry, one of your entries are incorrect.");
-    //
-}//if username AND password are correct alert user...
-else (name === pass){
-    alert("Welcome back " + name + ", it's good to work with you again.");
-
+//if username AND password are correct alert user...
+}else ((username === name) && (password === pass)){
+    alert("Welcome back " + name + ", it's good to work with you again.")
+}
 
