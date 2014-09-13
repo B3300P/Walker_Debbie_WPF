@@ -13,18 +13,13 @@
 
 
 var username = "Vid";
-var password = 000032;
-var userInput = prompt("Welcome " + username);
-var passwordInput= prompt ("Sorry, you have entered the wrong password.");
+var password = "TGIF";
+var userInput = prompt("Please enter your password.");
+var passwordInput = prompt ("Please enter your password.");
 
-if(userInput >= passwordInput);{
-
+if(username + password) {
+    console.log("Welcome, " + username + "!");
 }
-
-
-
-
-
 
 
 
