@@ -138,7 +138,7 @@ if(iPadPrice < budget && payCheck > 600){
     console.log("You cannot buy an iPad!");
 }
 
-// OR fi you won the lottery
+// OR if you won the lottery
 
 var wonLottery = true
 //if the ipad price is less than your budget or you won the lottery,
@@ -149,4 +149,20 @@ if(iPadPrice < budget || wonLottery===true){
 
 }else{
     console.log("You cannot buy an iPad!");
-}   
+}
+
+
+var gpa = 48;
+//if gpa is over the min 2.0 score, then students can graduate
+
+if(gpa>2.0){
+    console.log("You can graduate!");
+
+
+}else{
+    console.log("You cannot buy an iPad!");
+}
+
+//(condition to be met) ? first set of stuff: else stuff:
+
+(gpa > 2.0)?console.log("You can graduate."):console.log("You cannot graduate.")
