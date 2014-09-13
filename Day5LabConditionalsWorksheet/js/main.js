@@ -25,29 +25,37 @@ if (username = password) - (password)
 }
 
 
-*/
 
 
 
- //What is the temperature?
+
+//What is the temperature in Fahrenheit or Celsius?
 
 var number = prompt("What is the temperature?");
-var temperature = ["Celsius", "Fahrenheit"];
+var temperature = ["Celsius", " Fahrenheit"];
 var degreeC = (number-32) * 5/9;
 var degreeF = number * 9/5 +32;
 var temp = prompt("What temperature measurement would you prefer? " + temperature);
 
- if(temp === Celsius)
-     console.log("The temperature is" + degreeC)
+if(temp === "Celsius" || temp === "c") {
+    console.log("The temperature is " + degreeC + " Celsius" );
+} else if(temp === temperature[1] || temp === "f"){
+    console.log("The temperature is " + degreeF + " Fahrenheit");
+}
+
+*/
 
 
-     (degree is in celsius);{
- run (degreeC)
- prompt
+//Do you know your login information?
 
- else(degree is in fahrenheiht)
- run (degreeF)
-
- //The temperature is X degree Celsius.
-
- //The temperature is X degree Fahrenheit.
+//prompt user to add username...
+var username = prompt("What is your username?");
+//code: username is...
+var name = "Vid";
+//prompt the user to add password...
+var password = prompt("What is your password?");
+//code: password is...
+var pass = "D3bee";
+//ask if/then statements.
+//if username AND password are correct say...
+var correct = prompt("Welcome back " + name " it's good to work with you again.")
