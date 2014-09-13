@@ -7,7 +7,13 @@
 var degrees = ["Celsius","Fahrenheit"];
 var unit = ("Celsius" == "C")|| ("Fahrenheit" == "F");
 
+
 //The outcome will be either X degrees Celsius or Fahrenheit.
 
-var tempConversion = ("32F" === "0C");
 
+if ("32F" === "0C");{
+    console.log()
+}
+
+
+console.log(unit = tempConversion);
