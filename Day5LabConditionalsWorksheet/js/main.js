@@ -1,39 +1,16 @@
 //Debbie Walker, September 8, 2014, Web Programming Fundamentals - Lecture 00, Day 5 Lab Conditional Worksheet
 
-
-
-//Problem: Convert Celsius to Fahrenheit depending on what the user prefers.
-
-//Are username and password correct?
-//Question:
-// Prompt, What is your username and password?
-// If both correct prompt "Welcome user!
-// If username is correct then go to password
-// If password in incorrect, start over
-
 /*
-var username = "Vid";
-var password = "TGIF";
-var userInput = prompt("Please enter your password.");
-var passwordInput = prompt ("Please enter your password.");
+//Fahrenheit to Celsius Converter
 
-if (username = password) - (password)
-    console.log("Sorry, either password or username is wrong.");
-
-}else if(username + password){
-    console.log("Welcome, " + username + "!");
-}
-
-
-
-
-
-
-//What is the temperature in Fahrenheit or Celsius?
-
+//prompt user to input temperature...
 var number = prompt("What is the temperature?");
+//give temperature an array for user to choose from...
 var temperature = ["Celsius", " Fahrenheit"];
+//declare what the formula is for Celsius...
 var degreeC = (number-32) * 5/9;
+//declare what the formula is for Celsius...
+
 var degreeF = number * 9/5 +32;
 var temp = prompt("What temperature measurement would you prefer? " + temperature);
 
@@ -45,7 +22,6 @@ if(temp === "Celsius" || temp === "c") {
 
 */
 
-/*
 //Do you know your login information?
 
 //prompt user to add username...
@@ -70,9 +46,46 @@ if((username != name) && (password != pass)){
 }
 
 
-*/
+
+/*
+
 
 //What will your movie ticket cost?
 
-var age = [("55>", "<10") === ("$7.00")]
+//Prompt "What is your age?"
+var number = prompt("What is your age?");
+console.log
 
+//code: if you are older than 10 and younger than 54...
+var discountAge = [x <= 10 === x >= 55]
+
+
+
+
+
+//code: what age do you have to be to get a discount?
+
+
+var discountAge = [10 === 55]
+var regPriceAge = 11 - 54;
+//code: discountAge AND regularAge
+
+
+
+
+var discountAge = prompt("What is your age?");
+    if (discountAge <= 10){
+        //code if less than 10
+    }else if (discountAge >= 55){
+        //code if greater than 55
+    }
+
+
+
+var discountPrice = "$7.00";
+
+//What age
+//How much is a regular price ticket?
+var regPrice = "$10.00";
+//What age pays regular price?
+var regPriceAge =
