@@ -2,11 +2,39 @@
 
 
 
+//How much will your ticket cost?
+
+
+var number = prompt ("Please enter your age.");
+var discountAge = (number <= 10 || number >= 55);
+if(discountAge){
+    console.log("You qualify for a discount; your reduced price is $7.00.");
+}else{
+    console.log("Your ticket price is $12.00.")
+}
+
+var time = prompt ("Please enter the showtime.");
+var discountTime = (time > 2 && time < 5);
+
+var matinee = (time < 2 || time > 5);
+if(time != matinee){
+    console.log  ("You qualify for matinee price of $7.00.")
+}
+
+
+/*
+
+
+
+
+
+
+
 //What will your movie ticket cost?
 
 var discountHours = 2 - 5;
 var matinee = (number >= 1);
-var number = prompt ("Please enter your age.");
+var number = prompt ("Please enter your age and time of show.");
 var discountAge = (number <= 10 || number >= 55);
 if(discountAge){
     console.log("You qualify for a discount; your reduced price is $7.00.")
@@ -16,7 +44,7 @@ if(discountAge){
     console.log()
 }
 
-/*
+
 
 var matineeTime = prompt ("Matinee (2 pm - 5 pm) tickets are discounted, are you purchasing matinee?")
 if()
