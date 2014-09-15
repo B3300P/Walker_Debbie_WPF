@@ -3,7 +3,7 @@
 
 var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
-var max = prompt("Please enter a min number.");
+var max = (prompt("Please enter a min number."));
 
 //test to see that a number was actually entered!
 
@@ -17,3 +17,8 @@ if(isNaN(min) || min === ""){
     min = prompt("Re prompt, do not leave blank");
     console.log ("Please re-enter number.");
 }
+
+//syntax for Math.round and Math.random: Math.random()*(max-min)+min
+//
+var randomNumber = Math.round(Math.random()*(Number(max)-Number(min))+(min));
+console.log(randomNumber);
