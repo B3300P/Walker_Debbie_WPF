@@ -21,3 +21,7 @@ var temp = prompt("What temperature measurement would you prefer? " + temperatur
 if(temp === "Celsius" || temp === "c") {
     //then print to the console what the degree (math formula in Celsius is
     console.log("The temperature is " + degreeC + " Celsius" );
+    //OR if the user chooses Fahrenheit from the array variable temperature
+} else if(temp === temperature[1] || temp === "f"){
+    console.log("The temperature is " + degreeF + " Fahrenheit");
+}
