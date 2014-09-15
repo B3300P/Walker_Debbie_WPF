@@ -2,7 +2,7 @@
 - Lecture 00, Day 5 Lab Conditional Worksheet */
 
 
-//Conditional Logic | Problem 1
+//Conditional Logic | Problem 1 | Celsius to Fahrenheit conversion
 
 
 //input: since there are two scales for temperature prompt user to choose c/Celsius or f/Fahrenheit
