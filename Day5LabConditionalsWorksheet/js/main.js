@@ -15,3 +15,9 @@ var degreeC = (number-32) * 5/9;
 var degreeF = number * 9/5 +32;
 //Prompt user to choose a temperature...
 var temp = prompt("What temperature measurement would you prefer? " + temperature);
+//compare using logical operators; either (if) or (else if)...
+//if user chooses Celsius or c it will only choose Celsius from the temp prompt which gives
+//if the user chooses Celsius from the array variable temperature
+if(temp === "Celsius" || temp === "c") {
+    //then print to the console what the degree (math formula in Celsius is
+    console.log("The temperature is " + degreeC + " Celsius" );
