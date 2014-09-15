@@ -1,6 +1,7 @@
-/**
- * Created by debbiewalker on 9/13/14.
- */
+//Debbie Walker, September 8, 2014, Web Programming Fundamentals - Lecture 00, Day 5 Lab Conditional Worksheet
+
+
+//Problem 2
 
 //Do you know your login information?
 
