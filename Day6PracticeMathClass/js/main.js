@@ -35,3 +35,22 @@ console.log(Math.floor(num1));
 //rounds down
 
 
+var num2 = Math.random();
+console.log(num2);
+
+var num3 = Math.random()*10;
+//this will find a random number between 1 and 10
+console.log(num3);
+
+var num3 = Math.round(Math.random()*10);
+console.log (num3);
+
+//results variable into the council log
+//"Hello Jessica"
+
+
+
+
+
+
+
