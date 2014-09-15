@@ -1,7 +1,7 @@
 /*Debbie Walker, September 13, 2014, Web Programming Fundamentals
 - Lecture 00, Day 6 Practice Math Class */
 
-var min = (prompt("Please enter a min number."));
+/*var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
 var max = (prompt("Please enter a min number."));
 
@@ -22,3 +22,16 @@ if(isNaN(min) || min === ""){
 //
 var randomNumber = Math.round(Math.random()*(Number(max)-Number(min))+(min));
 console.log(randomNumber);
+*/
+
+var num1 = 9.555;
+console.log(num1);
+console.log(Math.round(num1));
+//round numb1
+
+console.log(Math.ceil(num1));
+//rounds up
+console.log(Math.floor(num1));
+//rounds down
+
+
