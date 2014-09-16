@@ -7,17 +7,30 @@
 //prompt user to enter mode of transportation
 // mph = r=d/t; referenced (http://www.math.com/school/subject1/lessons/S1U2L3DP.html)
 
-var carDistance = 10;
-var carTime = 10;
-var carRate = carDistance/carTime;
+//What is the best mode of travel?
+//Car, scooter or bike?
+//What's better for good weather?
+//Bike (1pt), Scooter (1pt), Car (0)
+//What's better for bad weather?
+//Bike (0), Scooter (0), Car (1)
+//What's better for cost?
+//Bike (1), Scooter (1), Car (0)
 
-var scooterDistance = 10;
+//Every time a variable is entered ++1
+
+//Total points for best mode of transportation
+
+//Conclusion = _____ is the best choice for you.
+
 var scooterTime = 10;
-var scooterRate = scooterDistance/scooterTime;
+var scooterRate = distance/scooterTime;
 
-var bikeDistance = 10;
 var bikeTime = 10;
-var bikeRate = bikeDistance/bikeTime;
+var bikeRate = distance/bikeTime;
+
+var distance = 10
+
+var
 
 //prompt user: choose a mode of transportation
 var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
@@ -28,10 +41,11 @@ if (mode === ""){
         var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
         console.log("Please try again.");
     }
+//else statement
 }else{
     console.log("Great choice.");
 }
-
+var rateMph = prompt
 
 
 
