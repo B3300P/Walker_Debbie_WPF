@@ -25,37 +25,50 @@ var car = points++;
 var scooter = points++;
 var bike = points++;
 
-alert("What mode of transportation should you choose for today?");
-var play = alert("You'll receive a point for every choice you make. Are you ready?");
+
+alert("Welcome back to Choose My Ride!");
+var start = prompt("You will receive a point for every choice you make.                   " +
+    "Are you ready to get started?");
+
 if ("yes") {
     console.log("Great,let's get started!");
-} else if ("no") {
+}
+    else if ("no") {
     console.log("Take your time, and come back when you're ready.");
-    if (mode === "") {
-        // (loop syntax: for
-        for (i = 1; i <= 5; i++) {
-            var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-            console.log("Please try again.");
-        }
-//prompt user: choose a mode of transportation
-        var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-//add if statement mode is nothing, re-prompt until a choice is made
-        if (mode === "") {
+}else {
+        if (start === "") {
             // (loop syntax: for
-            for (i = 1; i <= 5; i++) {
-                var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-                console.log("Please try again.");
-            }
-        else
-            {
-                console.log("Great choice.");
-            }
-            ;
+            for (i = 1; i <= 5; i++);
+}
+        var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+        console.log("Please try again.");
+    }
+
+
+ /*
+
+//prompt user: choose a mode of transportation
+    var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+//add if statement mode is nothing, re-prompt until a choice is made
+    if (mode !== "") {
+    }
+    else {
+        // (loop syntax: for
+        for (i = 1; i <= 5; i++);
+        var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+        console.log("Please try again.");
+    }
+else
+    {
+
+    }
+    console.log("Great choice.");
+}
 
 
 //__________________
 
-
+*/
 
 
 
