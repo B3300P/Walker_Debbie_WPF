@@ -30,7 +30,7 @@ var bikeRate = distance/bikeTime;
 
 var distance = 10
 
-var
+
 
 //prompt user: choose a mode of transportation
 var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
@@ -45,8 +45,9 @@ if (mode === ""){
 }else{
     console.log("Great choice.");
 }
-var rateMph = prompt
+var rateMph = prompt;
 
+var play = prompt("Let's play! You'll receive a point for every choice you make.");
 
 
 
