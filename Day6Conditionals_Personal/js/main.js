@@ -24,8 +24,18 @@ var carMph = carRate == carDistance/carTime;
 
 //prompt user: choose a mode of transportation
 var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-if ( mode === "" )
-console.log("Great choice.");
+//add if statement mode is nothing, re-prompt until a choice is made
+// (loop syntax: for
+
+if (mode === ""){
+    for (i=1; i<=5 ; i++){
+        var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+        console.log("Please try again.");
+    }
+}else{
+    console.log("Great choice.");
+}
+
 
 
 
