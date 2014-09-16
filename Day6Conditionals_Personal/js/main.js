@@ -13,11 +13,11 @@ var carRate = carDistance/carTime;
 
 var scooterDistance = 10;
 var scooterTime = 10;
-var scooterRate = carDistance/carTime;
+var scooterRate = scooterDistance/scooterTime;
 
 var bikeDistance = 10;
 var bikeTime = 10;
-var bikeRate = carDistance/carTime;
+var bikeRate = bikeDistance/bikeTime;
 
 //prompt user: choose a mode of transportation
 var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
@@ -31,6 +31,8 @@ if (mode === ""){
 }else{
     console.log("Great choice.");
 }
+
+
 
 
 
