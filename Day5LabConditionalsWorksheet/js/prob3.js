@@ -16,5 +16,5 @@ var time = prompt ("Please enter the showtime.");
 var discountTime = (time > 2 && time < 5);
 var matinee = (time < 2 || time > 5);
 if(time != matinee){
-    console.log  ("During weekly Matinees from 2pm - 5pm, tickets are discounted to $7.00.")
+    console.log  ("During weekly Matinees from 2pm - 5pm, tickets are discounted to $7.00.");
 }
