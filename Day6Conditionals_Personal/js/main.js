@@ -2,7 +2,7 @@
  - Lecture 00, Day 6 Conditionals, Personal */
 
 
-//Problem: What mode of transportation should you choose today?
+//Problem: What mode of transportation should you choose for today?
 
 //consider a mileage calculator into questions??
 // mph = r=d/t; referenced (http://www.math.com/school/subject1/lessons/S1U2L3DP.html)
@@ -20,24 +20,42 @@
 //Total points for best mode of transportation = the perfect vehicle for user
 //Conclusion = _____ is the best choice for you.
 
+var points = 1;
+var car = points++;
+var scooter = points++;
+var bike = points++;
 
-
+alert("What mode of transportation should you choose for today?");
+var play = alert("You'll receive a point for every choice you make. Are you ready?");
+if ("yes") {
+    console.log("Great,let's get started!");
+} else if ("no") {
+    console.log("Take your time, and come back when you're ready.");
+    if (mode === "") {
+        // (loop syntax: for
+        for (i = 1; i <= 5; i++) {
+            var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+            console.log("Please try again.");
+        }
 //prompt user: choose a mode of transportation
-var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-//add if statement mode is nothing, re-prompt until a choice is made
-if (mode === ""){
-    // (loop syntax: for
-    for (i=1; i<=5 ; i++){
         var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-        console.log("Please try again.");
-    }
-//else statement
-}else{
-    console.log("Great choice.");
-}
+//add if statement mode is nothing, re-prompt until a choice is made
+        if (mode === "") {
+            // (loop syntax: for
+            for (i = 1; i <= 5; i++) {
+                var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+                console.log("Please try again.");
+            }
+        else
+            {
+                console.log("Great choice.");
+            }
+            ;
+
+
 //__________________
 
-var play = alert("Let's play! You'll receive a point for every choice you make. Are you ready?");
+
 
 
 
