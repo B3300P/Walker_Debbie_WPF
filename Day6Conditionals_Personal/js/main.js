@@ -24,10 +24,9 @@ var points = 1;
 var car = points++;
 var scooter = points++;
 var bike = points++;
-
 var mode = [car, scooter, bike]
 
-alert("Welcome back to Choose My Ride!");
+alert("Welcome back to CHOOSE MY RIDE!");
 
 var start = prompt("You will receive a point for every choice you make.                   " +
     "Are you ready to get started?");
@@ -37,18 +36,24 @@ var start = prompt("You will receive a point for every choice you make.         
     }
         else if ("no") {
             console.log("Take your time, and come back when you're ready.");
-        }/*
-        else (start === "");
-{               start += i + "";
-              for (var i = 1; i <= 5; i++);
+        }
+    else {
+        (start === "");
+{
+        for (i = 0; i <= 5; i++);
+        mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+        console.log("Please try again.");
+   }
+}
+    /*
 
-                }
-                mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-                console.log("Please try again.");
-                }
+     start += i + "";
 
-
-
+     function myFunction() {
+     var text = "";
+     var i;
+     for (i = 0; i <= 5; i++) {
+     text += "The number is " + i + "";
 
 //prompt user: choose a mode of transportation
     var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
