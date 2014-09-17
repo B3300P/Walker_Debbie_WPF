@@ -95,7 +95,7 @@ for(var j=0; j<5; j++){
     console.log("j = " + j);
 }
 
-*/
+
 
 //____________________________
 
@@ -109,18 +109,40 @@ for(var j=0; j<5; j++){
 
 //add a conditional that says when it's down to 1, it stops
 
+
 for(var d=99; d>0; d--){
     console.log(d);
     console.log(d + " bottles of beer on the wall, " + d + " bottles of beer,");
-    console.log("take one down, pass it around, " + (d-=1) + "bottles of beer" +
+    console.log("take one down, pass it around, " + (d-=1) + " bottles of beer" +
         "on the wall.");
     if(d==1){
         console.log("take one down, pass it around. No more bottles of ber! The End!");
-
     }else{
+                                            //you can either say d-1 or -= +
         console.log("Take one down, pass it around, " + (d-=1) + " bottles of beer" +
         " on the wall.")
     }
+}
+ */
+//________________________________
+
+
+//Zombie Madness!!
+
+//for (initialization, condition, increment of change)
+
+//We have a zombie here at school.
+//It can bite 4 people a day and turn them into zombies
+//The CDC want to know how many zombies there will be in 8 days?
+
+var numZombies = 1; //initial number of zombies
+var bites = 4; //number of bites per zombie per day
+var days = 8; //total number of days
+
+for(p=1; p<=days; p++){
+ var newZombies = numZombies * bites;//start with original z times bites
+     numZombies = numZombies + newZombies;// number of z's is original z + new
+     console.log("There are  " + numZombies + " zombies o day # " + p + " !" );
 
 }
 
