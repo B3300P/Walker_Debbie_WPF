@@ -24,22 +24,37 @@ var points = 1;
 var car = points++;
 var scooter = points++;
 var bike = points++;
-var mode = [car, scooter, bike]
-var yes = ("Great,let's get started!")
-var no = ("Take our time, and come back when you're ready.")
+var mode = [car, scooter, bike];
+var yes = ("Great,let's get started!");
+var no = ("Take our time, and come back when you're ready.");
+var answer = ["yes"];
 
-alert("Welcome back to CHOOSE MY RIDE!");
+alert("Welcome back to"   +
+    "                                                 CHOOSE MY RIDE!");
 
-var start = prompt("You will receive a point for every choice you make.                   " +
-    console.log("Are you ready to get started?"){
+var start = prompt("You will receive a point for every choice you make."   +
+    "                    Are you ready to get started? Enter yes or no.");
 
+if(answer) {
+    console.log("Great,let's get started!")
 }
-if (yes) {
-        ("Great,let's get started!");
-    }else ("no");
-            console.log("Take your time, and come back when you're ready.");
+else if(no)
+}
+
+
 
 /*
+
+ else if (start === "") {
+
+ {
+ for (i = 0; i <= 5; i++);
+ mode = prompt("Choose a mode of transportation: car, scooter, bike.");
+ console.log("Please try again.");
+ }
+ }
+
+
 
     else {
         start === "";

@@ -17,11 +17,11 @@ var pass = "Vid00";
 //if username AND password are incorrect then alert user...
 if((username != name) && (password != pass)){
     alert("Sorry, we don't support hackers.");
-    console.log("Please go away.")
+    console.log("Please go away.");
     //if username OR password are in incorrect alert user...
 }else if((password != pass) || (username != name)){
     alert("Please retry, one of your entries are incorrect.");
 //if username AND password are correct then alert user...
 }else if ((username === name) && (password === pass)){
-    alert("Welcome back " + name + ", it's good to work with you again.")
+    alert("Welcome back " + name + ", it's good to work with you again.");
 }
