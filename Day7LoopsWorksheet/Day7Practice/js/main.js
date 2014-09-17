@@ -110,7 +110,17 @@ for(var j=0; j<5; j++){
 //add a conditional that says when it's down to 1, it stops
 
 for(var d=99; d>0; d--){
-
     console.log(d);
+    console.log(d + " bottles of beer on the wall, " + d + " bottles of beer,");
+    console.log("take one down, pass it around, " + (d-=1) + "bottles of beer" +
+        "on the wall.");
+    if(d==1){
+        console.log("take one down, pass it around. No more bottles of ber! The End!");
+
+    }else{
+        console.log("Take one down, pass it around, " + (d-=1) + " bottles of beer" +
+        " on the wall.")
+    }
 
 }
+
