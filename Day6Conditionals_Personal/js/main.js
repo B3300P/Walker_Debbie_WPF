@@ -20,7 +20,18 @@
 //Total points for best mode of transportation = the perfect vehicle for user
 //Conclusion = _____ is the best choice for you.
 
-
+//alert user: welcome...
+alert("Welcome back to CHOOSE MY RIDE.")
+//alert user: how to play
+alert("Enter either car, scooter or bike for each question.")
+//ask weather question...
+var weather = prompt("The weather is clear and sunny, you choose...");
+var car = 1
+var scooter = 1
+var bike = 1
+var carSum = 1
+var scooterSum = 1
+var bikeSum = 1
 
 
 
