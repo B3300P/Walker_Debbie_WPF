@@ -1,7 +1,7 @@
 /*Debbie Walker, September 13, 2014, Web Programming Fundamentals
 - Lecture 00, Day 6 Practice Math Class */
 
-/*var min = (prompt("Please enter a min number."));
+var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
 var max = (prompt("Please enter a min number."));
 
@@ -18,11 +18,22 @@ if(isNaN(min) || min === ""){
     console.log ("Please re-enter number.");
 }
 
+//WE WANT THIS TO KEEP ASKING IN A LOOP (ADDED ON SEPT 17)
+
+//while loop runs as long as condition is true
+while(isNan(min)) || min===""){
+    //while loop runs as long as condition is true
+    min = prompt("Please enter a number and do not leae blank.")
+}
+
+
+
+
 //syntax for Math.round and Math.random: Math.random()*(max-min)+min
 //
 var randomNumber = Math.round(Math.random()*(Number(max)-Number(min))+(min));
 console.log(randomNumber);
-*/
+
 
 var num1 = 9.555;
 console.log(num1);
@@ -47,6 +58,18 @@ console.log (num3);
 
 //results variable into the council log
 //"Hello Jessica"
+
+///________________________________________________
+
+
+//Added Loops: Sept 17th
+
+//syntax: for (i= 0); i < cars.length; i++) {
+        //text
+
+
+
+
 
 
 
