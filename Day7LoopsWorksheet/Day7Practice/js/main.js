@@ -123,7 +123,7 @@ for(var d=99; d>0; d--){
         " on the wall.")
     }
 }
- */
+
 //________________________________
 
 
@@ -146,3 +146,18 @@ for(p=1; p<=days; p++){
 
 }
 
+ */
+//________________________________
+
+// Cycle through array using For Loop
+
+
+var names = ["Scooby", "Shaggy", "Velma", "Fred", "Daphne"]
+
+//loop through array
+
+for(var i=0; i<names.length; i++){
+    console.log("You solved the case, " + names[i] + "!");
+//you could add a condition like, if i is = to numPears add it to x
+
+}
