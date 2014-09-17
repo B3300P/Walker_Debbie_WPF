@@ -20,85 +20,46 @@
 //Total points for best mode of transportation = the perfect vehicle for user
 //Conclusion = _____ is the best choice for you.
 
-var points = 1;
-var car = points++;
+
+
+
+
+
+
+
+/*
+
+var points = 1
+var car =
 var scooter = points++;
 var bike = points++;
-var mode = [car, scooter, bike];
-var yes = ("Great,let's get started!");
-var no = ("Take our time, and come back when you're ready.");
+var totalCar = car * car;
+
+alert(car);
+var total = prompt(car);
+
+var mode = ["scooter ", "car", " bike"];
 var answer = ["yes"];
 
 alert("Welcome back to"   +
     "                                                 CHOOSE MY RIDE!");
+alert("Receive a point for each choice. " +
+    "                                                     The most points equal your ride for the day.");
+alert("Enter either car, scooter, or bike for each question.");
+var goodWeather = prompt("The temperature is between 75-90 and sunny, I choose...");
+var choose = prompt("Choose your " + mode + " of transportation.");
+    if(bike){
+    console.log("75 degrees is perfect weather for a " + bike + "ride!");
+        }else if(scooter){
+    console.log("The wind in your hair would feel great scooting around on a" + scooter + "today!");
+        }else if(car){
 
-var start = prompt("You will receive a point for every choice you make."   +
-    "                    Are you ready to get started? Enter yes or no.");
-
-if(answer) {
-    console.log("Great,let's get started!")
-}
-else if(no)
-}
-
-
-
-/*
-
- else if (start === "") {
-
- {
- for (i = 0; i <= 5; i++);
- mode = prompt("Choose a mode of transportation: car, scooter, bike.");
- console.log("Please try again.");
- }
- }
-
-
-
-    else {
-        start === "";
-{
-             for (i = 0; i <= 5; i++);
-                mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-                console.log("Please try again.");
-   }
-}
-
-
-     start += i + "";
-
-     function myFunction() {
-     var text = "";
-     var i;
-     for (i = 0; i <= 5; i++) {
-     text += "The number is " + i + "";
-
-//prompt user: choose a mode of transportation
-    var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-//add if statement mode is nothing, re-prompt until a choice is made
-    if (mode !== "") {
-    }
-    else {
-        // (loop syntax: for
-        for (i = 1; i <= 5; i++);
-        var mode = prompt("Choose a mode of transportation: car, scooter, bike.");
-        console.log("Please try again.");
-    }
-else
-    {
-
-    }
-    console.log("Great choice.");
-}
-
-
-//__________________
-
-*/
+        }
 
 
 
 
-
-
+/*if (car) {
+    console.log("copy here"
+});
+    */
