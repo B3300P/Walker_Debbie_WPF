@@ -32,7 +32,6 @@ if(isNaN(min) || min === ""){
 min = prompt("Please enter a number and do not leave blank.");
 }
 
-*/
 
 //__________________________
 
@@ -49,5 +48,28 @@ while(counter<200){
     counter++;
 }
 
+
+*/
+
+//__________________________
+
+
+//Do While loops
+//the do/while loop is a variant of the while loop
+//this loop will execute the code block, once, before checking if
+//the condition is true,
+//then it will repeat the loop as long as the condition is true.
+
+var i = 0;
+//set a variable to hold our value
+
+do{
+    console.log("The number is  " + i);
+    i++;
+}
+while(i<10);
+
+
+//__________________________
 
 
