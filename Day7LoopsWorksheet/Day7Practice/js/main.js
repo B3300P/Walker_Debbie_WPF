@@ -142,7 +142,7 @@ var days = 8; //total number of days
 for(p=1; p<=days; p++){
  var newZombies = numZombies * bites;//start with original z times bites
      numZombies = numZombies + newZombies;// number of z's is original z + new
-     console.log("There are  " + numZombies + " zombies o day # " + p + " !" );
+     console.log("There are  " + numZombies + " zombies on day # " + p + " !" );
 
 }
 
