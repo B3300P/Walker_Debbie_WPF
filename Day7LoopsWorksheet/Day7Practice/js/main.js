@@ -49,7 +49,7 @@ while(counter<200){
 }
 
 
-*/
+
 
 //__________________________
 
@@ -72,4 +72,25 @@ while(i<10);
 
 //__________________________
 
+ */
 
+// Basic For Loop
+// for (intitiallization, condition, incremento f change)
+//We use i freq b/c it stands for iteration
+
+for(var i=0; i<20; i+=4){
+    //for loop initializes the variable i, sets a conditions
+    //i is less than 20, and adds increments of change + 4
+    console.log("i = " + i);
+    //show the value of i
+    //runs as long as i is less than 20
+}
+
+//break
+
+for(var j=0; j<5; j++){
+    if(j==2){
+        break; // stops the loop from cycling
+    }
+    console.log("j = " + j);
+}
