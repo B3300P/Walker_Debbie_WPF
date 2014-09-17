@@ -72,7 +72,7 @@ while(i<10);
 
 //__________________________
 
- */
+
 
 // Basic For Loop
 // for (intitiallization, condition, incremento f change)
@@ -93,4 +93,24 @@ for(var j=0; j<5; j++){
         break; // stops the loop from cycling
     }
     console.log("j = " + j);
+}
+
+*/
+
+//____________________________
+
+//Bear Example
+
+//Basic For Loop
+//for (initialization, condition, increment of change)
+
+//create loop that makes the song 99 bottles of beer on the wall.
+//until there are no more.
+
+//add a conditional that says when it's down to 1, it stops
+
+for(var d=99; d>0; d--){
+
+    console.log(d);
+
 }
