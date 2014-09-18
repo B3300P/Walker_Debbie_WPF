@@ -4,7 +4,7 @@
 
 //What size truck would you need to move two dressers?
 
-var 
+var
 
 //Prompt user to input dimensions;
 var height = prompt("Enter your height.");
@@ -25,3 +25,6 @@ var depth = prompt("Enter your depth.");
 var area = (height * width * depth);
     console.log("This is the volume of your box. " + area);
 
+}else if(isNaN(userId) != true){
+    //print not valid...
+    console.log("Not a valid userId.");
