@@ -12,28 +12,33 @@
 alert("eCLOCK-In");
 //prompt user id...
 var userId = prompt("Enter your user ID.");
+//declare id
 var id = "123";
 //declare userName
 var userName = "SuperStar";
 //if condition 1
 if(userId === id){
+    //print to console
     console.log("Welcome back " + userName + ".");
     //if condition 2
 }else if(isNaN(userId) != true){
     console.log("Not a valid userId.");
     //else if nothing is entered...
 }
-
+//prompt user to enter military time...
 var scheduleTime = prompt("Please schedule in military time for instance; 1 pm = 13.");
-//input time...
-//alert user of time constraints...
+//alert user of time penalties...
 alert("If time is clocked after 17:00, it will be applied to the next business day.");
-if((scheduleTime >=8 || scheduleTime <=17)) {
+//if, time is between 08:00 and 17:00 user to schedule time...
+if((scheduleTime >=8 || scheduleTime <=17)){
+    //print console, we received your time...
     console.log("Thank, we received your time.");
-
+//else if they enter a time outside of 08:00 - 17:00
 }else if (scheduleTime != scheduleTime){
        console.log("Sorry, that is not a scheduled time, please re-enter.");
+    //else if not number answer is not a userId
 }else if(isNaN(userId) != true){
+    //print not valid...
     console.log("Not a valid userId.");
     //else if nothing is entered...
 }
