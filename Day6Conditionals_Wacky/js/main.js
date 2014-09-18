@@ -2,40 +2,17 @@
  - Lecture 00, Day 6 Conditionals, Industry */
 
 
-//area
+//What size truck would you need to move two dressers?
 
-
-
+var 
 
 //Prompt user to input dimensions;
-
 var height = prompt("Enter your height.");
     if(height === ""){
-
-
-
-
-
-        console.log("Please re-enter.");
-
-
-
-
+    console.log("Please re-enter.");
     }
-
-
-
     else if (isNaN(height)){
-
-
-
-
         console.log("Please re-enter.");
-
-
-
-
-
     }
 var width = prompt("Enter your width.");
     if(width === ""){
