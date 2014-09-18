@@ -10,8 +10,6 @@
 
 //alert user to input action: do something...
 alert("eCLOCK-In");
-//alert user of time constraints...
-alert("If time is clocked after 17:00, it will be applied to the next business day.");
 //prompt user id...
 var userId = prompt("Enter your user ID.");
 var id = "123";
@@ -21,29 +19,19 @@ var userName = "SuperStar";
 if(userId === id){
     console.log("Welcome back " + userName + ".");
     //if condition 2
-}else {
-    console.log("Please re-enter your user ID.");
+}else if(isNaN(userId) != true){
+    console.log("Not a valid userId.");
     //else if nothing is entered...
 }
-else
-if (userId !== "") {
-} else {
-    console.log("Not a valid userId.");
-}
 
-
-    var time = 0;
-//declare unscheduled time
-    var closed = (time <7 || time >18);
-//declare scheduled time
-    var scheduleTime = (time >=8 || time <=17);
-
+var scheduleTime = prompt("Please schedule in military time for instance; 1 pm = 13.");
 //input time...
-scheduleTime = prompt("Please schedule in military time for instance; 1 pm = 13.");
-//ask if/then statements...
-//console.log("Thank you, we are calculating your schedule now.")
-if(scheduleTime) {
+//alert user of time constraints...
+alert("If time is clocked after 17:00, it will be applied to the next business day.");
+
+if((time >=8 || time <=17)) {
     console.log("Thank, we received your time.");
+
 }else if (scheduleTime != scheduleTime){
        console.log("Sorry, that is not a scheduled time, please re-enter.");
        // }
@@ -54,5 +42,5 @@ if(scheduleTime) {
 
 
 
-
+*/
 

@@ -11,7 +11,31 @@
 
 var height = prompt("Enter your height.");
     if(height === ""){
+
+
+
+
+
         console.log("Please re-enter.");
+
+
+
+
+    }
+
+
+
+    else if (isNaN(height)){
+
+
+
+
+        console.log("Please re-enter.");
+
+
+
+
+
     }
 var width = prompt("Enter your width.");
     if(width === ""){
