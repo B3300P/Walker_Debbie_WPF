@@ -28,19 +28,13 @@ var scheduleTime = prompt("Please schedule in military time for instance; 1 pm =
 //input time...
 //alert user of time constraints...
 alert("If time is clocked after 17:00, it will be applied to the next business day.");
-
-if((time >=8 || time <=17)) {
+if((scheduleTime >=8 || scheduleTime <=17)) {
     console.log("Thank, we received your time.");
 
 }else if (scheduleTime != scheduleTime){
        console.log("Sorry, that is not a scheduled time, please re-enter.");
-       // }
-      //     else if (scheduleTime === "") {
-       //  for (i = 0; i <= 5; i++);
-        //    console.log("Please try again.");
+}else if(isNaN(userId) != true){
+    console.log("Not a valid userId.");
+    //else if nothing is entered...
 }
-
-
-
-*/
 
