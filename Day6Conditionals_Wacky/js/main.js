@@ -4,9 +4,23 @@
 
 //area
 
-var h = 1;
-var l = 1;
-var w = 1;
 
-var area = (l x w x h);
+
+
+//Prompt user to input dimensions;
+
+var height = prompt("Enter your height.");
+    if(height === ""){
+        console.log("Please re-enter.");
+    }
+var width = prompt("Enter your width.");
+    if(width === ""){
+    console.log("Please re-enter.");
+}
+var depth = prompt("Enter your depth.");
+    if(depth === ""){
+    console.log("Please re-enter.");
+}
+var area = (height * width * depth);
+    console.log("This is the volume of your box. " + area);
 
