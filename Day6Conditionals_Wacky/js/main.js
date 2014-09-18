@@ -27,3 +27,4 @@ var boxArea = (catHeight * catLength * catStature)+12;
 alert("Your Total = " + boxArea + ".");
 alert("Thank you.");
 
+//Please see practice homework, to show better use of my code ability.
