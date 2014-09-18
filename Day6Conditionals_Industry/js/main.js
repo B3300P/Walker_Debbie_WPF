@@ -25,16 +25,17 @@ if(userId === id){
     console.log("Not a valid userId.");
     //else if nothing is entered...
 }
+
 //prompt user to enter military time...
-var scheduleTime = prompt("Please schedule in military time for instance; 1 pm = 13.");
-//alert user of time penalties...
-alert("If time is clocked after 17:00, it will be applied to the next business day.");
+var scheduleTime = prompt("Enter your military time " +
+    "(example: 1 pm = 13)." +
+    "                        NOTE: after 17:00, it will be applied to the next business day.");
 //if, time is between 08:00 and 17:00 user to schedule time...
-if((scheduleTime >=8 || scheduleTime <=17)){
+if(scheduleTime >=8 || scheduleTime <=17){
     //print console, we received your time...
     console.log("Thank, we received your time.");
 //else if they enter a time outside of 08:00 - 17:00
-}else if (scheduleTime != scheduleTime){
+}else if (scheduleTime <8 && scheduleTime >17){
        console.log("Sorry, that is not a scheduled time, please re-enter.");
     //else if not number answer is not a userId
 }else if(isNaN(userId) != true){
