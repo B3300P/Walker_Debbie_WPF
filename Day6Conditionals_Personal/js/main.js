@@ -18,11 +18,11 @@ var bikeSum = 1;
 //prompt user to choose a mode of transportation after each question...
 weather = prompt("The weather is clear in sunny Florida, you choose... " + vehicle);
 if (weather === vehicle[0]){//if array: vehicle unit is [0] is true
-        bikeSum++; //then add bike sum
+        bikeSum++; //then add bike sum plus 1
 } else if (weather === vehicle[1]){// else if vehicle unit is [1]
         scooterSum++; //then add scooter sum
 }else if (weather === vehicle[2]){//else if...vehicle unit [2]
-        carSum++; //then add car sum
+        carSum++; //then add car sum plus 1
 }else{//then...re-prompt if no answer was given (this would have looped, if there was more time)
         weather = prompt("The weather is clear in sunny Florida, you choose... " + vehicle)
 }

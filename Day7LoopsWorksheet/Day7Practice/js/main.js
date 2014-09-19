@@ -1,5 +1,5 @@
-/*Debbie Walker, September 17, 2014, Web Programming Fundamentals
- - Lecture 00, Day 7 Conditionals, Loops
+//Debbie Walker, September 17, 2014, Web Programming Fundamentals
+// - Lecture 00, Day 7 Conditionals, Loops
 
 
 //Loop Practice
@@ -11,7 +11,7 @@
 
 var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
-var max = (prompt("Please enter a min number."));
+//var max = (prompt("Please enter a max number."));
 
 //test to see that a number was actually entered!
 
@@ -33,7 +33,7 @@ min = prompt("Please enter a number and do not leave blank.");
 }
 
 
-//__________________________
+/*__________________________
 
 //Basic While Loops
 
@@ -151,7 +151,7 @@ for(p=1; p<=days; p++){
 
 // Cycle through array using For Loop
 
-
+/*
 var names = ["Scooby", "Shaggy", "Velma", "Fred", "Daphne"]
 
 //loop through array
@@ -161,3 +161,4 @@ for(var i=0; i<names.length; i++){
 //you could add a condition like, if i is = to numPears add it to x
 
 }
+    */
