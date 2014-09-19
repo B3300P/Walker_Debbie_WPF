@@ -59,7 +59,7 @@ for(var i=0; i<fruit.length ; i++){
 // 2. boolean{true/false}, 3. string"word" or "#", 4. array["word", or "#",]
 
 //create first function
-/*
+
 function printHello(){
 
     console.log("Hello World!!!");
@@ -70,10 +70,14 @@ function printMore() {
 
 printHello();
 printMore();
-    */
+
 
 function calcArea(){
+    var width = 30;
+    var height = 10;
+    var area = width * height;
 
+    console.log(area);
 }
 
 calcArea();
