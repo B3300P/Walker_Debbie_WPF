@@ -36,8 +36,8 @@
       <file leaf-file-name="forLoop.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/forLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68733156" vertical-offset="0" max-vertical-offset="660">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.28301886" vertical-offset="0" max-vertical-offset="660">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -68,8 +68,8 @@
       <file leaf-file-name="forLoop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forLoop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -98,9 +98,9 @@
         <option value="$PROJECT_DIR$/js/doWhileLoop.js" />
         <option value="$PROJECT_DIR$/js/whileLoo.js" />
         <option value="$PROJECT_DIR$/whileLoop.html" />
-        <option value="$PROJECT_DIR$/forLoop.html" />
         <option value="$PROJECT_DIR$/doWhileLoop.html" />
         <option value="$PROJECT_DIR$/js/forLoop.js" />
+        <option value="$PROJECT_DIR$/forLoop.html" />
       </list>
     </option>
   </component>
@@ -327,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forLoop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="348">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -343,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/forLoop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68733156" vertical-offset="0" max-vertical-offset="660">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28301886" vertical-offset="0" max-vertical-offset="660">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
