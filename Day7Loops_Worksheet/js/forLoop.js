@@ -1,4 +1,4 @@
-//Debbie Walker, September 17, 2014, Web Programming Fundamentals
+//Debbie Walker, September 19, 2014, Web Programming Fundamentals
 //- Lecture 00, Day 7 Conditionals, For Loops
 
 //For Loop Practice
@@ -11,7 +11,7 @@ var l = 13-18;
 var array = ["nb", "s", "m", "l"];
 
 var shoe = prompt("Please enter your child's shoe size." + array);
-    console.log(array);
+console.log(array);
 if(shoe < 1 == nb || shoe > nb == array){
     console.log("Shoe size is" + array);
 }
@@ -36,4 +36,4 @@ while(isNaN(min) || min==="")
 
 alert("test");
 
-    */
+   
