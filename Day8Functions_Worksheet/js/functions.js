@@ -58,3 +58,26 @@ for(var i=0; i<fruit.length ; i++){
 //(variable) var (variable nickname) boxes = (variable type) ie. 1. number#,
 // 2. boolean{true/false}, 3. string"word" or "#", 4. array["word", or "#",]
 
+//create first function
+/*
+function printHello(){
+
+    console.log("Hello World!!!");
+}
+function printMore() {
+    console.log("Prints Out More Text!");
+}
+
+printHello();
+printMore();
+    */
+
+function calcArea(){
+
+}
+
+calcArea();
+calcArea();
+calcArea();
+calcArea();
+calcArea();
