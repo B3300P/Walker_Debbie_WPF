@@ -19,6 +19,39 @@ calcArea(width,height);
     function calcArea (w,h){
     var area = w*h;
     console.log(area);
+
+    return area;
 }
+//make sure these are outside the function
+
+
+var funcResult = calcArea(20,20);
+
 //run the function again
-calcArea(10,10);
+/*calcArea(10,10);*/
+
+
+//this adds returns
+console.log (funcResult);
+
+
+
+
+
+
+
+//__________________________
+
+var yearsOld = 0;
+var dogAge = +7;
+var connor = 0
+
+function Math.age(dogAge + age){
+
+    console.log(x);
+
+}
+
+//_______________________
+
+
