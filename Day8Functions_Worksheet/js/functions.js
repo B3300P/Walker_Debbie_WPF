@@ -16,7 +16,7 @@ if(fruit[0] === "grape"){
 
 
 //Basic For Loop
-//for (initialization, condition, increment of change)
+//for syntax definition (initialization, condition, increment of change)
 
 //INITIALIZATION
 //i=0, this means that initialization equals index 0 in the array.
@@ -42,8 +42,19 @@ for(var i=0; i<fruit.length ; i++){
 //i = apple
 //i = bananas
 
-
-
-
-
 //methods and functions are essentially the same thing
+
+//____________
+
+//funcName(argument1, argument2);
+
+//function funcName (parameter1, parameter2){
+    //code the function runs;
+//}
+
+//arguments are the same as the parameters inside the function.
+
+//ICE CREAM FACTORY
+//(variable) var (variable nickname) boxes = (variable type) ie. 1. number#,
+// 2. boolean{true/false}, 3. string"word" or "#", 4. array["word", or "#",]
+
