@@ -58,7 +58,7 @@ for(var i=0; i<fruit.length ; i++){
 //(variable) var (variable nickname) boxes = (variable type) ie. 1. number#,
 // 2. boolean{true/false}, 3. string"word" or "#", 4. array["word", or "#",]
 
-//create first function
+// first function example
 
 function printHello(){
 
@@ -71,12 +71,14 @@ function printMore() {
 printHello();
 printMore();
 
+// second function example
 
 function calcArea(){
     var width = 30;
     var height = 10;
     var area = width * height;
-
+//variables have to be declared inside of the function!!!!
+//also cannot start using outside the function!!!!
     console.log(area);
 }
 
@@ -85,3 +87,8 @@ calcArea();
 calcArea();
 calcArea();
 calcArea();
+
+//____________________
+
+
+
