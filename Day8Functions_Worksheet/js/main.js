@@ -3,7 +3,7 @@
 
 
 //Function Worksheet
-
+/*
 
 //1.calculate the are of a rectangle:
 var width = 5;//variables given
@@ -28,23 +28,22 @@ var funcResult = calcArea(20,20);
 calcArea(10,10);
 
 
+*/
 
 
-//1. Calculate the circumference of a circle.
-//Parameters for function:
+//Parameters for function: Calculate the circumference of a circle.
+//naming/calling the function
+var result = circumference();
 
-var radius = prompt("Enter the radius of the circle","");
-var circle = 2 * Math.PI * radius;
-alert("The circumference is "+circle+".")
+//creating function
+function circumference(r){
+    var radius = prompt("Enter the radius of the circle","");
+    var circle = 2 * Math.PI * radius;
+    var math =("The circumference is " + circle + ".");
+    return math
 }
 
-
-
-//2. variable for radius
-
-
-//3. creating function
-
+console.log(result);
 
 //FUNCTION CALCULATION
 
