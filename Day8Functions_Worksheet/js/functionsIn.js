@@ -53,4 +53,19 @@ calcAge(yearsOld * dogAge);
 
 //2. variable for radius
 
-//3. 
+//3. creating function
+
+//FUNCTION CALCULATION
+
+    //using the formula
+//xxxxx
+
+//returning value
+        //return XXXX
+
+//4. calling function
+        //var result =
+
+    //logging to console
+
+
