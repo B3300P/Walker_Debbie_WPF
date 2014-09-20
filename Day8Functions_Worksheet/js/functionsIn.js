@@ -34,24 +34,23 @@ var funcResult = calcArea(20,20);
 //this adds returns
 console.log (funcResult);
 
-
-
-
-
-
-
 //__________________________
 
-var yearsOld = 0;
-var dogAge = +7;
-var connor = 0
+var yearsOld = 8;
+var dogAge = 7;
 
-function Math.age(dogAge + age){
+calcAge(yearsOld * dogAge);
 
-    console.log(x);
+    function calcAge(y,d){
+    var age = y*d;
+    console.log(calcAge(15,));
 
 }
 
 //_______________________
 
+//1. calculate the circumference of a circle
 
+//2. variable for radius
+
+//3. 
