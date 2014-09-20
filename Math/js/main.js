@@ -9,10 +9,15 @@ var result = circumference();
 //creating function
 function circumference(){
     var radius = prompt("Enter the radius of the circle","");
+        if(radius===""){
+             console.log("You did not enter a number.");
+            radius = Number(prompt("Please re-enter the number."));
+
+    }
     var circle = 2 * Math.PI * radius;
     return ("The circumference is " + Math.ceil(circle) + ".");
 
-}
+    }
 
 console.log(result);
 

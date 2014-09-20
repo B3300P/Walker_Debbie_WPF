@@ -13,7 +13,7 @@ var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
 //var max = (prompt("Please enter a max number."));
 
-/test to see that a number was actually entered!
+//test to see that a number was actually entered!
 
 if(min===""){
     console.log("you did not enter number");
