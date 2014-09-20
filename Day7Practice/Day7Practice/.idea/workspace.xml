@@ -26,8 +26,8 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88388216" vertical-offset="1020" max-vertical-offset="2520">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="104" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.27863777" vertical-offset="945" max-vertical-offset="2520">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="95" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="240" />
-    <option name="width" value="783" />
-    <option name="height" value="708" />
+    <option name="x" value="-47" />
+    <option name="y" value="22" />
+    <option name="width" value="540" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,14 +194,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="240" width="783" height="708" extended-state="1" />
+    <frame x="-47" y="22" width="540" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23097113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -342,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88388216" vertical-offset="1020" max-vertical-offset="2520">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="104" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.27863777" vertical-offset="945" max-vertical-offset="2520">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="95" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@
 //arguments & parameters
 //arguments - goes into functions
 //parameters - catches the argument in the function
-/*
+
 
 //Allows us to make our code more flexible!
 
@@ -28,7 +28,7 @@ calcArea(width,height);
 var funcResult = calcArea(20,20);
 
 //run the function again
-/*calcArea(10,10);
+calcArea(10,10);
 
 
 //this adds returns
@@ -70,13 +70,13 @@ calcAge(yearsOld * dogAge);
     //logging to console
 
 
-*/
 
 
 
 
 
-//when you call it can also be a variable like://to get user to input (prompt)
+//when you call it can also be a variable like://to get user to input (prompt), but make sure
+//to validate the prompt when there is no answer
 var results = learning();
 
 //"leaning()" is what I would do to call the functions (kind of like a variable, it's an
@@ -101,3 +101,5 @@ function learning(t){
 
 //console results
 console.log(results);
+
+

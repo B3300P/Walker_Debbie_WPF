@@ -13,7 +13,7 @@ var min = (prompt("Please enter a min number."));
 //you can add multiple brackets...
 //var max = (prompt("Please enter a max number."));
 
-//test to see that a number was actually entered!
+/test to see that a number was actually entered!
 
 if(min===""){
     console.log("you did not enter number");
@@ -37,7 +37,7 @@ min = prompt("Please enter a number and do not leave blank.");
 
 //Basic While Loops
 
-//initializing he counter variable
+//initializing the counter variable
 var counter = 0;
 
 while(counter<200){
@@ -49,7 +49,7 @@ while(counter<200){
 }
 
 
-
+/*
 
 //__________________________
 
@@ -95,11 +95,11 @@ for(var j=0; j<5; j++){
     console.log("j = " + j);
 }
 
-
+/*
 
 //____________________________
 
-//Bear Example
+//Beer Example
 
 //Basic For Loop
 //for (initialization, condition, increment of change)

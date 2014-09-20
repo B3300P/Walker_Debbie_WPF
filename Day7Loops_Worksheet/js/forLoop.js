@@ -1,8 +1,7 @@
 //Debbie Walker, September 19, 2014, Web Programming Fundamentals
 //- Lecture 00, Day 7 Conditionals, For Loops
 
-//For Loop Practice
-
+//Basic For Loop
 
 var nb = 0;
 var s = 1-6;
@@ -11,11 +10,21 @@ var l = 13-18;
 var array = ["nb", "s", "m", "l"];
 
 var shoe = prompt("Please enter your child's shoe size." + array);
-console.log(array);
+console.log(shoe);
+/*
 if(shoe < 1 == nb || shoe > nb == array){
     console.log("Shoe size is" + array);
 }
+for(var i=0; i<3; i++){
+    //for loop initializes the variable i, sets a conditions
+    //i is less than 3, and adds increments of change + 1
+    console.log("i = " + i);
+    //show the value of i
+    //runs as long as i is less than 20
+}
 
+
+/*
 if(min===""){
     console.log("you did not enter number");
     min = Number(prompt("Please re-enter number"));
@@ -36,4 +45,4 @@ while(isNaN(min) || min==="")
 
 alert("test");
 
-   
+  */
