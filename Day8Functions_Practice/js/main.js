@@ -76,3 +76,14 @@ for(var i=0; i<fruit.length ; i++){
     //show the value of i
     //runs as long as i is less than 20
 }
+
+
+//here is what councils:
+//i = grape
+//i = pear
+//i = apple
+//i = bananas
+
+//methods and functions are essentially the same thing
+
+
