@@ -114,3 +114,26 @@ function printMore() {
 printHello();
 printMore();
 
+
+// second function example
+
+function calcArea(){
+    var width = 30;
+    var height = 10;
+    var area = width * height;
+//variables have to be declared inside of the function!!!!
+//also cannot start using outside the function!!!!
+    console.log(area);
+}
+
+calcArea();
+calcArea();
+calcArea();
+calcArea();
+calcArea();
+
+//____________________
+
+
+
+
