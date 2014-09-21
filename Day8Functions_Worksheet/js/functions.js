@@ -28,3 +28,23 @@
         // console.log(functionName) //prints return
 
 //Problem 1. Circumference
+
+//Basic function style:
+
+//The circumference of a circle is
+function circumference(a,y,x){//invoke the function and
+    a = PI * r*r;
+    b = r*sin(theta);
+    x = r*cos(theta);
+    var radius = Math.radius;
+    console.log(area);
+
+    return area;
+
+}
+
+function circum() {
+    var radius = prompt("Enter the radius of the circle","");
+    var circle = 2 * Math.PI * radius;
+    alert("The circumference is "+circle+".")
+}
