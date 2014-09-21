@@ -1,3 +1,2 @@
-/**
- * Created by debbiewalker on 9/21/14.
- */
+/*Debbie Walker, September 19, 2014, Web Programming Fundamentals
+ - Lecture 00, Day 9 Functions */
