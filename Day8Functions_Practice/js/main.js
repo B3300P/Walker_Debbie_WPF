@@ -39,3 +39,16 @@ calcArea(10,10);
 
 //this adds returns
 console.log (funcResult);
+
+//__________________________
+
+var yearsOld = 8;
+var dogAge = 7;
+
+calcAge(yearsOld * dogAge);
+
+function calcAge(y,d){
+    var age = y*d;
+    console.log(calcAge(15,));
+
+}
