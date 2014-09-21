@@ -32,9 +32,9 @@
 //Basic function style:
 
 //The circumference of a circle is...
-function circumference(0);{  //invoke the function
+function circumference(){  //invoke the function
     var radius = prompt("Enter the radius of the circle","");
     var circle = 2 * Math.PI * radius;
-    alert("The circumference is "+circle+".");
+    alert("The circumference is " + circle + ".");
 }
 console.log(circumference);
