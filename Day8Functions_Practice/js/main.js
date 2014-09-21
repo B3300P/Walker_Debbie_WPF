@@ -52,3 +52,24 @@ function calcAge(y,d){
     console.log(calcAge(15,));
 
 }
+
+
+
+
+//_______________________
+
+//1. calculate the circumference of a circle
+
+//2. variable for radius
+
+//3. creating function
+
+//FUNCTION CALCULATION
+
+//using the formula
+//xxxxx
+
+//returning value
+//return XXXX
+
+//4. calling function
