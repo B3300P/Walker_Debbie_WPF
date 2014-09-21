@@ -31,20 +31,10 @@
 
 //Basic function style:
 
-//The circumference of a circle is
-function circumference(a,y,x){//invoke the function and
-    a = PI * r*r;
-    b = r*sin(theta);
-    x = r*cos(theta);
-    var radius = Math.radius;
-    console.log(area);
-
-    return area;
-
-}
-
-function circum() {
+//The circumference of a circle is...
+function circumference(0);{  //invoke the function
     var radius = prompt("Enter the radius of the circle","");
     var circle = 2 * Math.PI * radius;
-    alert("The circumference is "+circle+".")
+    alert("The circumference is "+circle+".");
 }
+console.log(circumference);
