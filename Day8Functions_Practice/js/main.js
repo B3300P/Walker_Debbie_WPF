@@ -29,3 +29,13 @@ function calcArea (w,h){
     return area;
 }
 //make sure these are outside the function
+
+
+var funcResult = calcArea(20,20);
+
+//run the function again
+calcArea(10,10);
+
+
+//this adds returns
+console.log (funcResult);
