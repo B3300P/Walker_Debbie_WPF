@@ -1,4 +1,4 @@
-/*Debbie Walker, September 13, 2014, Web Programming Fundamentals
+/*Debbie Walker, September 19, 2014, Web Programming Fundamentals
  - Lecture 00, Day 9 Functions */
 
 //
@@ -42,34 +42,15 @@ console.log (funcResult);
 
 //__________________________
 
-var yearsOld = 8;
-var dogAge = 7;
+//Function Practice
 
-calcAge(yearsOld * dogAge);
+var fruit = ["grape","pear", "apple", "bananas"];
+//loop through to check for unit in array:
 
-function calcAge(y,d){
-    var age = y*d;
-    console.log(calcAge(15,));
+var totalFruit = 0;
 
+if(fruit[0] === "grape"){
+    totalFruit++;//++ makes te totalFruit variable add 1 unit so that it will loop through by checking
+//to see if it equals anything in the array.
 }
-
-
-
-
-//_______________________
-
-//1. calculate the circumference of a circle
-
-//2. variable for radius
-
-//3. creating function
-
-//FUNCTION CALCULATION
-
-//using the formula
-//xxxxx
-
-//returning value
-//return XXXX
-
-//4. calling function
+console.log(totalFruit);
