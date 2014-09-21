@@ -87,3 +87,30 @@ for(var i=0; i<fruit.length ; i++){
 //methods and functions are essentially the same thing
 
 
+//____________
+
+//funcName(argument1, argument2);
+
+//function funcName (parameter1, parameter2){
+//code the function runs;
+//}
+
+//arguments are the same as the parameters inside the function.
+
+//ICE CREAM FACTORY
+//(variable) var (variable nickname) boxes = (variable type) ie. 1. number#,
+// 2. boolean{true/false}, 3. string"word" or "#", 4. array["word", or "#",]
+
+// first function example
+
+function printHello(){
+
+    console.log("Hello World!!!");
+}
+function printMore() {
+    console.log("Prints Out More Text!");
+}
+
+printHello();
+printMore();
+
