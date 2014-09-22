@@ -1,5 +1,5 @@
 /*
- Debbie Walker, September 17, 2014, Web Programming Fundamentals - Lecture 00, Day 8 Functions
+ Debbie Walker, September 19, 2014, Web Programming Fundamentals - Lecture 00, Day 8 Functions
  */
 
 //3 types of functions=["Basic functions", "Procedures", "Anonymous"]
@@ -26,3 +26,42 @@
 // {
 //var functionName(); INVOKING (input data)
 // console.log(functionName) //prints return
+
+
+//Problem 1. Circumference
+
+//Basic function style:
+
+//The circumference of a circle is 2 x PI x radius...
+//invoke(call) the function
+function radius(){
+    //code the function...
+    var radius = prompt("Enter the radius of the circle:", "");
+    }
+    if(radius()===""){
+    console.log("Please enter the radius.");
+        var circle = 2 * Math.PI * radius;
+        alert("The circumference is " + circle + ".");
+    }
+console.log(radius);
+ /*
+
+    var circle = 2 * Math.PI * radius;
+    alert("The circumference is " + circle + ".");
+
+
+  if (isNaN(radius)){
+  radius = prompt("Please enter a number for your radius.");
+
+}
+console.log(circumference);
+
+function circum() {
+    var radius = prompt("Enter the radius of the circle","");
+    var circle = 2 * Math.PI * radius;
+    alert("The circumference is "+circle+".")
+}
+
+
+*/
+
