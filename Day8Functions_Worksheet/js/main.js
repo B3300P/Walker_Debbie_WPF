@@ -36,14 +36,20 @@
 //invoke(call) the function
 function circumference(){
     //code the function...
-    var radius = prompt("Enter the radius of the circle:","");
+    var radius = prompt("Enter the radius of the circle:");
     var circle = 2 * Math.PI * radius;
-
-
-    alert("The circumference is " + circle + ".");
+    if (radius === ""){
+        alert("A number must be entered to get the circumference."){
+            radius = prompt("Enter the radius of the circle:");
+        }
 
     }
-console.log("text");
+
+
+
+
+    }
+//console.log("text");
 circumference();
  /*
   var radius = prompt("Enter the radius of the circle:", "");
