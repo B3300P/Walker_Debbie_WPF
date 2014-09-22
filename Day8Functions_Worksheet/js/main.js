@@ -8,7 +8,7 @@
 //code the function runs; //it can contain parameters, like buckets for arguments
 //results
 // {
-//console.log(functions) //calls a return from the var functions
+//functionName; //calls a return from the var functions
 
 
 //syntax for Procedure
@@ -25,7 +25,7 @@
 //return
 // {
 //var functionName(); INVOKING (input data)
-// console.log(functionName) //prints return
+// functionName; //prints return
 
 
 //Problem 1. Circumference
@@ -34,22 +34,27 @@
 
 //The circumference of a circle is 2 x PI x radius...
 //invoke(call) the function
-function radius(){
+function circumference(){
     //code the function...
-    var radius = prompt("Enter the radius of the circle:", "");
-    }
-    if(radius()===""){
-    console.log("Please enter the radius.");
-        var circle = 2 * Math.PI * radius;
-        alert("The circumference is " + circle + ".");
-    }
-
- /*
-  console.log(radius);
+    var radius = prompt("Enter the radius of the circle:","");
     var circle = 2 * Math.PI * radius;
+
+
     alert("The circumference is " + circle + ".");
 
-
+    }
+console.log("text");
+circumference();
+ /*
+  var radius = prompt("Enter the radius of the circle:", "");
+  var circumference = 2 * Math.PI * radius;
+  /*var radius = prompt("Enter the radius of the circle:", "");
+  } if(radius()===""){
+  console.log("Please enter the radius.");
+    var circle = 2 * Math.PI * radius;
+    alert("The circumference is " + circle + ".");
+  circumference();
+  console.log(circumference);
   if (isNaN(radius)){
   radius = prompt("Please enter a number for your radius.");
 
@@ -61,7 +66,4 @@ function circum() {
     var circle = 2 * Math.PI * radius;
     alert("The circumference is "+circle+".")
 }
-
-
-*/
-
+  */
