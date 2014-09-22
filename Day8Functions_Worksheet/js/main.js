@@ -39,16 +39,22 @@ function circumference(){
     var radius = prompt("Enter the radius of the circle:");
     var circle = 2 * Math.PI * radius;
     if (radius === ""){
-        alert("A number must be entered to get the circumference."){
-            radius = prompt("Enter the radius of the circle:");
-        }
-
+        alert("A number must be entered to get the circumference.");
+        radius = prompt("Enter the radius of the circle:");
     }
 
 
 
 
-    }
+
+}
+
+//for (x=0;x<10;x+=4){
+
+ //   }
+
+//for (x=0;x<10;x=+4);
+  //  }
 //console.log("text");
 circumference();
  /*
