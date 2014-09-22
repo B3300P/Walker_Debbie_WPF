@@ -86,7 +86,7 @@ function triangleArea(b,h){//4.it does not matter what you call the argument her
 }
 */
 
-/*
+
 //Anonymous function example B of triangle area:
 
 //2. create variables for the function
@@ -103,11 +103,10 @@ var anon = triangleA(base,height);
 //5.print
 console.log(anon);
 
-*/
 
 //__________________
 
-
+/*
 //PUSH, POP and Link are methods of arrays
 
 //1. create an array...
@@ -129,3 +128,5 @@ testArray[4]="Pringle";
 //5. pop (take away) removes last item from the array
 testArray.pop();
 console.log(testArray);
+
+*/
