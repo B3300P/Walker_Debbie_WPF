@@ -43,9 +43,9 @@ function radius(){
         var circle = 2 * Math.PI * radius;
         alert("The circumference is " + circle + ".");
     }
-console.log(radius);
- /*
 
+ /*
+  console.log(radius);
     var circle = 2 * Math.PI * radius;
     alert("The circumference is " + circle + ".");
 
