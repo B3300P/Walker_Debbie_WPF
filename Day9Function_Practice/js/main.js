@@ -27,8 +27,6 @@ function randomizer(mn,mx){//function
 
 for(var i = 0; i<5; i++){
     console.log(randomizer(min,max));
-
-
 }
 
 //This is a Function!
@@ -36,8 +34,9 @@ function calcAreaF(width, height){
 
     var area = width * height;
     return area;
-
 }
+
+
 
 //This is a Procedure!
 //Just a list of steps to do
@@ -47,3 +46,17 @@ function calcAreaP(widthdh, height){
     console.log(area);
 }
 
+
+///This is an example of a normal function
+function functionName(parameters){
+    //code to execute;
+    //return value;
+}
+
+//Anonymous function
+var functionName = functions(parameters){//in this instance the variable becomes the functionName
+    //code to execute;
+    //return value;
+}
+
+functionName(arguments);
