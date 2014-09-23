@@ -4,20 +4,31 @@
 //cake calculator
 
     //1 serving size = x
+/*
+A ternary
+An else if
+    An anonymous function
+    A normal "named" function
+    An expression with two arithmetic operators
+A function with three parameters.
+    At least one logical operator
+    */
 
 var width=7;
-var length=8;
+var length=12;
 var height=10;
-var cake=(width, lenght, height);
 
-var serving=1;
+var cake = cakeVol=(width, length, height);
+
+console.log(cake)
+
+//var serving=1;
 
 
 
-function cake(){
-    var volume = (w,l,h){
+function cakeVol(w,l,h){
+    var volume = (w*l*h);
     return volume;
-    }
 
 }
 
