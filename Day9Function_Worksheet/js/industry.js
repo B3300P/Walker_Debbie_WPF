@@ -24,3 +24,14 @@
  At least one logical operator === !=, etc.
  */
 
+
+var variableName = 0;
+var variableName = 0;
+var variableName = functionName(;
+
+
+
+
+functionName(parameter1, parameter2, parameter3) {
+    code to be executed
+}
