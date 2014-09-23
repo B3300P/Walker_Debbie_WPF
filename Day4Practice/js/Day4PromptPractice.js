@@ -21,7 +21,7 @@ var area = width*height;
 var addRoom = width-height;
 
 //CASTING
-//if I am adding I have to add it as a number (can't subtract, divide, multiply stings)
+//if I am adding, I have to add it as a number (can't subtract, divide, multiply stings)
 
 var addRoom = Number(width)+Number(height);
 
