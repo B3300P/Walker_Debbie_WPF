@@ -36,9 +36,11 @@
       <file leaf-file-name="personal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8544304" vertical-offset="0" max-vertical-offset="632">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.8372093" vertical-offset="0" max-vertical-offset="675">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,9 +64,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="660" />
-    <option name="y" value="23" />
-    <option name="width" value="620" />
+    <option name="x" value="439" />
+    <option name="y" value="22" />
+    <option name="width" value="756" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -196,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="23" width="620" height="765" extended-state="0" />
+    <frame x="439" y="22" width="756" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -269,7 +271,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,9 +319,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8544304" vertical-offset="0" max-vertical-offset="632">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.8372093" vertical-offset="0" max-vertical-offset="660">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 /**
- * Created by debbiewalker on 9/22/14.
+ * Created by debbiewalker on 9/22/14. Functions
  */
 //cake calculator
 
@@ -28,11 +28,12 @@ console.log(cake);
 
 
 //1.name the function
-function cakeVol(w,l,h){//4.it does not matter what you call the argument here
-    var volume = (w*l*h);//5. add variable
-    return volume;//6. call the function to do the action
+function cakeVol(w,l,h){   //4.it does not matter what you call the argument here
+    var volume = (w*l*h);  //5. add variable
+    return volume;         //6. call the function to do the action
 
 }
+
 
 
 
