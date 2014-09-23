@@ -11,7 +11,7 @@
 
 //Normal function example A of triangle area: w*H
 
-/*
+
 var width = 90;
 var height = 8;
 var a = rectangleArea(width, height);
@@ -22,7 +22,9 @@ function rectangleArea(w,h){
         var area = w*h;
         return area;
 }
-*/
+
+
+/*
 
 //Anonymous function example P of perimeter of rectangle: 2w*2L
 
@@ -40,3 +42,5 @@ var rectangleP = function(w,l){
 
 var p = rectangleP(width,length);
 console.log(p);
+
+    */
