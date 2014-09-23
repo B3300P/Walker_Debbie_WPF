@@ -64,6 +64,10 @@ functionName(arguments);
 
 //___________________
 
+//Function parameters are the names listed in the function definition.
+//Function arguments are the real values received by the function when it is invoked.
+//Inside the function, the arguments are used as local variables.
+
 /*
 //Normal function example A of triangle area:
 
