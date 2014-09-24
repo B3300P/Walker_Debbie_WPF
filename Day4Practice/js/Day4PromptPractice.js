@@ -41,7 +41,7 @@ String(areaCode)+ String(phoneNumber);
 //Pars Integer (sets a whole number back, not a fraction)
 //parseInt
 
-//var test = parseInt("48 inches");
+var test = parseInt("48 inches");
 
 //CONDITIONALS - PREVIEW for Friday (don't use until after Friday)
 

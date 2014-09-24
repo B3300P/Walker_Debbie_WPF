@@ -7,7 +7,7 @@
  * Created by debbiewalker on 9/22/14.
  */
 
-/*
+
 //random number function
 //loop
 
@@ -88,9 +88,9 @@ function triangleArea(b,h){//4.it does not matter what you call the argument her
     return area;//6. call the function to do the action
 
 }
-*/
 
 
+/*
 //Anonymous function example B of triangle area:
 
 //2. create variables for the function
@@ -106,7 +106,7 @@ var triangleA = function(b,h){
 var anon = triangleA(base,height);
 //5.print
 console.log(anon);
-
+*/
 
 //__________________
 

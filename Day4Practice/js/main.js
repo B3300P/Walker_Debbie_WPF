@@ -9,17 +9,17 @@ var avengerNames= ["Ironman", "Captain America", "Hulk", "Black Widow", "Thor", 
 console.log(avengerNames);
 
 //access a specific item in array
-console.log(avengerNames[0];
+console.log(avengerNames[0]);
 
 //change an item in the array
-aventerNames[0] = "Black Widow";
+avengerNames[0] = "Black Widow";
 
 //print the array again and by index number
-consle.log(avengerName);
-consle.log(avangerNames[0];
+console.log(avengerNames);
+console.log(avengerNames[0]);
 
 //find out hte length of an array
-consle.log(avengerNames.length);
+console.log(avengerNames.length);
 
 
-var name = prompt()
+var name = prompt();
